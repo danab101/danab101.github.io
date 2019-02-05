@@ -1,0 +1,93 @@
+
+@media only screen and (max-width:1200px) {
+
+.navbar .navbar-brand { width:250px; }
+ul.nav.navbar-nav { margin-top:18px; }
+#conceptSldr .caption h2, .fdBnr .caption h2 { font-size:120px; }
+#conceptSldr .caption p, .fdBnr .caption p { font-size:28px; }
+#conceptSldr .carousel-inner { margin-top:88px; }
+.subprd .subprdrow h5 { font-size:30px; }
+.ntrnt-1 { width:33%; }
+.clear_none{ clear:none !important;}
+.ntrnt-1:nth-child(5n+1) { clear:none; }
+.ntrnt-1:nth-child(4n+1) { clear:left; }
+.store-ttl { font-size:43px; }
+
+}
+
+@media only screen and (max-width:992px) {
+
+body { overflow-x:hidden; }
+ul.nav.navbar-nav { font-size:14px; }
+.nav > li > a { padding-right:7px; padding-left:7px; }
+.navbar .navbar-brand { width:200px; }
+ul.nav.navbar-nav { margin-top:8px; }
+#conceptSldr .caption h2, .fdBnr .caption h2 { font-size:90px; }
+#conceptSldr .caption p, .fdBnr .caption p { font-size:25px; }
+#conceptSldr .carousel-inner { margin-top:75px; }
+.subprd .subprdrow h5 { font-size:22px; }
+.subprd .dspTbl { display:block; }
+.subprd .dspCl { display:inline-block; width:25%; }
+.ntrnt-1 { width:33.33%; }
+.ntrnt-1:nth-child(4n+1) { clear:none; }
+.ntrnt-1:nth-child(3n+1) { clear:left; }
+.store-ttl { font-size:33px; }
+.cntct-cnt { border-right:0; }
+.enqry-form { margin-top:50px; }
+.clear_none{ clear:none; }
+}
+
+@media only screen and (max-width:767px) {
+
+.navbar-toggle { background-color:transparent; margin-top:20px; position:fixed; z-index:10; top:20px; right:20px; margin:0; padding:0; }
+.nav > li { text-align:center; }
+.navbar-toggle .icon-bar { background-color:white; }
+.navbar-nav > li > a.active::after { background:none !important; box-shadow:none; }
+#conceptSldr .caption h2, .fdBnr .caption h2 { font-size:70px; }
+#conceptSldr .caption p, .fdBnr .caption p { font-size:22px; }
+.foodMnPrdct .prd-thmb img { display:inline-block; }
+.navbar-collapse { position:fixed; width:100%; height:100%; left:0; top:0; margin:0 !important; padding:0 !important; background:rgba(0,0,0,.8); max-height:none !important; }
+ul.nav.navbar-nav { margin:0; margin-top:50px; }
+.navbar-nav > li > a { color:#fff; }
+.hdr-socials { width:100%; text-align:center; margin:0; float:none; }
+.hdr-socials > a { padding:5px; }
+.foodMnPrdct .selected::before, .foodMnPrdct .selected::after { width:0; height:0; position:absolute; left:auto; content:''; margin-left:0px; margin-top:-10px; top:50%; }
+.foodMnPrdct .selected::before { border-bottom:20px solid transparent; border-top:20px solid transparent; border-left:20px solid black; bottom:auto; left:0; }
+.foodMnPrdct .selected::after { border-top:20px solid transparent; border-bottom:20px solid transparent; border-right:20px solid black; top:50%; right:0; }
+.enqry-form .form-control.half-wdth { width:100%; }
+#conceptSldr .carousel-inner { margin-top:115px; }
+.prd-cnt { text-align:center; }
+.subprd .subprdrow h5 { font-size:18px; }
+.ntrnt-1 { width:50%; }
+.ntrnt-1:nth-child(3n+1) { clear:none; }
+.ntrnt-1:nth-child(2n+1) { clear:left; }
+.multi-lctn .carousel-inner > .item { text-align:center; }
+.multi-lctn .carousel-control img { top:45%; }
+
+iframe.gmap {height:200px;}
+#conceptSldr .carousel-control.right img { right:10px; }
+#conceptSldr .carousel-control.left img { left:10px; }
+
+.ntrntMnNew h1{ font-size:56px; font-family: "Anton",sans-serif; }
+.ntrntMnNew p{ font-size:16px; font-family: "Ropa Sans",sans-serif; }
+.ntrntMnNew .container2 .col-sm-4 h2{ font-family: "Anton",sans-serif; font-size: 20px;}
+.ntrntMnNew .container2 .col-sm-12 .img_div{ min-height:180px; }
+
+}
+
+@media only screen and (max-width:640px) {
+	.ntrntMnNew .container2 .col-sm-12 .img_div{ min-height:80px; }
+}
+
+@media only screen and (max-width:550px) {
+
+.subprd .subprdrow h5 { font-size:15px; }
+.subprd .dspCl { width:49%; }
+.subprd .dspCl img { max-width:100px; }
+.ntrnt-1 { width:100%; }
+
+.ntrntMnNew h1{ font-size:28px; font-family: "Anton",sans-serif; }
+.ntrntMnNew p{ font-size:16px; font-family: "Ropa Sans",sans-serif; }
+.ntrntMnNew .container2 .col-sm-4 h2{ font-family: "Anton",sans-serif; font-size: 14px;}
+.ntrntMnNew .container2 .col-sm-12 .img_div{ min-height:50px; }
+}
