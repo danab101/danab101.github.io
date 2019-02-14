@@ -120,8 +120,8 @@ span.chicken_taj { display: inline-block;
 .enqry-form .form-control, .be-stuffd .form-control { border-radius:0; border:4px solid black; height:50px; width:100%; max-width:500px; }
 .enqry-form textarea.form-control { height:150px; max-width:100%; }
 .enqry-form .form-control.half-wdth { width:60%; }
-.form-btn { width:272px; height:76px; line-height:; text-align:center; border:none; background:url(../images/button-bg.png) no-repeat center top; font-family: 'Anton', sans-serif; font-size:37px; color:#000; }
-.form-btn:hover, .form-btn:focus { background-color:transparent; outline:none; }
+.form-btn { width:272px; height:76px; line-height:; text-align:center; border:none; background:url(../images/button-bg.png) no-repeat center top; font-family: 'Anton', sans-serif; font-size:37px; color:#fff; }
+.form-btn:hover, .form-btn:focus { color: red; background-color:transparent; outline:none; }
 
 .be-stuffd { width:100%; float:left; background:url(../images/rollon-bg.png) repeat center; padding:15px 0; color:#fff; }
 .be-stuffd h3 { font-family: 'Anton', sans-serif; font-size:48px; }
