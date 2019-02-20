@@ -1,0 +1,2269 @@
+<!DOCTYPE html>
+
+<html lang="en-US" class="no-js">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	
+	<link rel="pingback" href="http://stuffed.com.sg/xmlrpc.php">
+
+	<!--[if lt IE 9]>
+
+	<script src="http://stuffed.com.sg/wp-content/themes/stuff/js/html5.js"></script>
+
+	<![endif]-->
+
+	
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+
+	<title>Calculate Nutrition</title>
+
+
+
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+	<!--[if lt IE 9]>
+
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+	<![endif]-->
+
+	
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<link type="text/css" rel="stylesheet" href="css/custom.css" />
+<link type="text/css" rel="stylesheet" href="css/responsive.css" />
+
+
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Calculate your nutrition &#8211; stuff</title>
+<link rel="alternate" type="application/rss+xml" title="stuff &raquo; Feed" href="http://stuffed.com.sg/feed/" />
+<link rel="alternate" type="application/rss+xml" title="stuff &raquo; Comments Feed" href="http://stuffed.com.sg/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/stuffed.com.sg\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.16"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://stuffed.com.sg/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dgd-scrollbox-plugin-core-css'  href='http://stuffed.com.sg/wp-content/plugins/dreamgrow-scroll-triggered-box/css/style.css?ver=2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://stuffed.com.sg/wp-content/themes/stuff/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://stuffed.com.sg/wp-content/themes/stuff/style.css?ver=4.5.16' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://stuffed.com.sg/wp-content/themes/stuff/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://stuffed.com.sg/wp-content/themes/stuff/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://stuffed.com.sg/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://stuffed.com.sg/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var $DGD = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"80224740a9","debug":"","permalink":"http:\/\/stuffed.com.sg\/calculate-your-nutrition\/","title":"Calculate your nutrition","thumbnail":"","scripthost":"\/wp-content\/plugins\/dreamgrow-scroll-triggered-box\/","scrollboxes":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://stuffed.com.sg/wp-content/plugins/dreamgrow-scroll-triggered-box/js/script.js?ver=2.3'></script>
+<link rel='https://api.w.org/' href='http://stuffed.com.sg/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://stuffed.com.sg/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://stuffed.com.sg/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.16" />
+<link rel="canonical" href="http://stuffed.com.sg/calculate-your-nutrition/" />
+<link rel='shortlink' href='http://stuffed.com.sg/?p=274' />
+<link rel="alternate" type="application/json+oembed" href="http://stuffed.com.sg/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fstuffed.com.sg%2Fcalculate-your-nutrition%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://stuffed.com.sg/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fstuffed.com.sg%2Fcalculate-your-nutrition%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+<script src="http://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDDfpnx67zPQfALNygPRKit_z2uK6p5tWg"></script>
+
+
+
+
+
+
+
+<style type="text/css" >
+
+/*@media only screen and (max-width:1024px) {
+
+	.ntrnt-1:nth-child(n+) {
+
+		display:none !important;
+
+	}
+
+}*/
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="page page-id-274 page-template page-template-page-calculation-2 page-template-page-calculation-2-php">
+
+
+<nav class="navbar navbar-fixed-top">
+
+    <div class="container">
+
+        <div class="navbar-header">
+
+            <button type="button" role="button" data-toggle="collapse" data-target="#mainNavbar" class="navbar-toggle lines-button x">
+
+              <span class="lines"></span>
+
+            </button>
+
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+            </button>-->
+
+            <a class="navbar-brand" href="http://danab101.github.io"><img src="images/logo7.png" style="width:260px;height:100px;" class="img-responsive" alt="STUFF'D - MEXICAN. TURKISH. DELICIOUS."></a>
+
+        </div>
+
+        <div class="hdr-socials">
+
+            <a href="http://halal.sg/documents/EE_Jul16%20%283%29.pdf" target="_blank"><img src="http://www.astons.com.sg/wp-content/uploads/2016/10/Halal-Logo.png" style="width:50px;height:50" alt=""></a>
+
+            <a href="https://www.facebook.com/Stuffd-SG-2032981636787204/?modal=admin_todo_tour" target="_blank"><img src="images/facebook.png" style="width:50px;height:50" alt=""></a>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="nav navbar-nav navbar-right">
+
+				
+                <li class="concept-li" data-toggle="collapse" data-target="#mainNavbar"><a href="https://danab101.github.io/index.html#conceptSldr"><strong>Concept</strong></a></li>
+
+                <li class="food-li"><a href="https://danab101.github.io/index.html#food"><strong>Menu</strong></a></li>
+
+                <li class="nutrition-li"><a href="https://danab101.github.io/index.html#nutrition"><strong>Nutrition</strong></a></li>
+
+                <li class="location-li"><a href="https://danab101.github.io/index.html#locations"><strong>Locations</strong></a></li>
+
+                <li class="talkus-li"><a href="https://danab101.github.io/index.html#talkUs"><strong>Contact Us</strong></a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<section id="conceptSldr" class="carousel slide home_slider" data-ride="carousel">
+
+    <!-- Indicators -->
+
+    <!--<ol class="carousel-indicators">
+
+        <li data-target="#conceptSldr" data-slide-to="0" class="active"></li>
+
+        <li data-target="#conceptSldr" data-slide-to="1"></li>
+
+        <li data-target="#conceptSldr" data-slide-to="2"></li>
+
+        <li data-target="#conceptSldr" data-slide-to="3"></li>
+
+    </ol>-->
+
+
+
+	<!-- Wrapper for slides -->
+
+    		
+
+</section>
+
+
+<input type="hidden" name="showjason" value="309:3,271:3,422:3,311:3,309:4,271:4,310:4,422:4,311:4,309:5,271:5,310:5,422:5,311:5,271:6,310:6,309:7,271:7,310:7,311:7,309:8,271:8,310:8,311:8," id="showjason" />
+<input type="hidden" name="showcat" value="Array3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,8," id="showcat" />
+<section class="nutrtnCalc">
+	<h2>Select to begin your calculation</h2>    
+    <div class="container">
+    <div class="row">
+		        <div class="col-md-3 recepie_img" >
+        	<a href="javascript:;" id="click_309" class="show_rec_dtl" >
+        	<img width="159" height="94" src="http://stuffed.com.sg/wp-content/uploads/2016/05/food-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="food-1" /><br />
+            Kebab            </a>
+        </div>
+                <div class="col-md-3 recepie_img" >
+        	<a href="javascript:;" id="click_271" class="show_rec_dtl" >
+        	<img width="159" height="94" src="http://stuffed.com.sg/wp-content/uploads/2016/05/food-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="food-2" /><br />
+            Burrito            </a>
+        </div>
+                <div class="col-md-3 recepie_img" >
+        	<a href="javascript:;" id="click_310" class="show_rec_dtl" >
+        	<img width="159" height="94" src="http://stuffed.com.sg/wp-content/uploads/2016/05/food-3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="food-3" /><br />
+            Daily Bowl            </a>
+        </div>
+                <div class="col-md-3 recepie_img" >
+        	<a href="javascript:;" id="click_422" class="show_rec_dtl" >
+        	<img width="159" height="94" src="http://stuffed.com.sg/wp-content/uploads/2017/08/tacos.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="tacos" /><br />
+            Tacos            </a>
+        </div>
+                <div class="col-md-3 recepie_img" >
+        	<a href="javascript:;" id="click_311" class="show_rec_dtl" >
+        	<img width="159" height="94" src="http://stuffed.com.sg/wp-content/uploads/2017/08/quesadilla.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="quesadilla" /><br />
+            Quesadilla            </a>
+        </div>
+            </div>
+    <div class="row">
+    	<div class="col-md-12 ntr-tblmn">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="calc-tbl">
+	<thead>
+    <tr>
+        <td class="thead_first_td" >&nbsp;</td>
+			
+        			
+					<td><span class="transform">Energy [kcal]</span> </td>
+    		
+        			
+					<td><span class="transform">Total Fat [g]</span> </td>
+    		
+        			
+					<td><span class="transform">Saturated Fat [g]</span> </td>
+    		
+        			
+					<td><span class="transform">Sodium [mg]</span> </td>
+    		
+        			
+					<td><span class="transform">Carbohydrates [g]</span> </td>
+    		
+        			
+					<td><span class="transform">Protein [g]</span> </td>
+    		
+        			
+					<td><span class="transform">Dietary Fibres [g]</span> </td>
+    		
+        			
+					<td><span class="transform">Cholesterol [mg]</span> </td>
+    		
+        			
+					<td><span class="transform">Sugars [g]</span> </td>
+    	    </tr>
+    </thead>
+    <tbody>
+
+    	<tr class="rectr rectr2 rec_309 cls_3 " ><td colspan="10" class="tbl-ttl">Tortilla</td></tr>     	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_265" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_265" >+</span>&nbsp;<span id="dtl_265" class="click_popup" data-title="Tortilla 10"" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/sub-product-1.png" alt="" width="48"  />&nbsp;Tortilla 10"&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_265" class="odd nofont dtl_265_1" align="center"  style="font-size:0px; color:#fff;" >171.6</td>
+		<td id="totalfat_309_265" align="center" class="td_desc nofont dtl_265_2"  style="font-size:0px; color:#fff;" >4.26</td>
+		<td id="satfat_309_265" class="td_desc odd nofont dtl_265_3" align="center"  style="font-size:0px; color:#fff;" >1.04</td>
+        <td id="sodium_309_265" align="center" class="td_desc nofont dtl_265_4"  style="font-size:0px; color:#fff;" >349.8</td>
+        <td id="carbo_309_265" class="td_desc odd nofont dtl_265_5" align="center"  style="font-size:0px; color:#fff;" >28.2425</td>
+        <td id="protein_309_265" align="center" class="td_desc nofont dtl_265_6" style="font-size:0px; color:#fff;" >4.5595</td>
+        <td id="difi_309_265" class="td_desc odd nofont dtl_265_7" align="center"  style="font-size:0px; color:#fff;" >1.71</td>
+        <td id="chol_309_265" align="center" class="td_desc nofont dtl_265_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_265" class="td_desc odd nofont dtl_265_9" align="center"  style="font-size:0px; color:#fff;" >1.06</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_279" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_279" >+</span>&nbsp;<span id="dtl_279" class="click_popup" data-title="Tortilla 12"" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/sub-product-1.png" alt="" width="48"  />&nbsp;Tortilla 12"&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_279" class="odd nofont dtl_279_1" align="center"  style="font-size:0px; color:#fff;" >249.6</td>
+		<td id="totalfat_271_279" align="center" class="td_desc nofont dtl_279_2"  style="font-size:0px; color:#fff;" >6.2</td>
+		<td id="satfat_271_279" class="td_desc odd nofont dtl_279_3" align="center"  style="font-size:0px; color:#fff;" >1.51</td>
+        <td id="sodium_271_279" align="center" class="td_desc nofont dtl_279_4"  style="font-size:0px; color:#fff;" >508.8</td>
+        <td id="carbo_271_279" class="td_desc odd nofont dtl_279_5" align="center"  style="font-size:0px; color:#fff;" >41.08</td>
+        <td id="protein_271_279" align="center" class="td_desc nofont dtl_279_6" style="font-size:0px; color:#fff;" >6.63</td>
+        <td id="difi_271_279" class="td_desc odd nofont dtl_279_7" align="center"  style="font-size:0px; color:#fff;" >2.48</td>
+        <td id="chol_271_279" align="center" class="td_desc nofont dtl_279_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_279" class="td_desc odd nofont dtl_279_9" align="center"  style="font-size:0px; color:#fff;" >1.54</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_422 rec_td_422_444" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_422_444" >+</span>&nbsp;<span id="dtl_444" class="click_popup" data-title="Tortilla 6"" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/sub-product-1.png" alt="" width="48"  />&nbsp;Tortilla 6"&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_422_444" class="odd nofont dtl_444_1" align="center"  style="font-size:0px; color:#fff;" >61.85</td>
+		<td id="totalfat_422_444" align="center" class="td_desc nofont dtl_444_2"  style="font-size:0px; color:#fff;" >1.54</td>
+		<td id="satfat_422_444" class="td_desc odd nofont dtl_444_3" align="center"  style="font-size:0px; color:#fff;" >0.37</td>
+        <td id="sodium_422_444" align="center" class="td_desc nofont dtl_444_4"  style="font-size:0px; color:#fff;" >126.07</td>
+        <td id="carbo_422_444" class="td_desc odd nofont dtl_444_5" align="center"  style="font-size:0px; color:#fff;" >10.18</td>
+        <td id="protein_422_444" align="center" class="td_desc nofont dtl_444_6" style="font-size:0px; color:#fff;" >1.64</td>
+        <td id="difi_422_444" class="td_desc odd nofont dtl_444_7" align="center"  style="font-size:0px; color:#fff;" >0.61</td>
+        <td id="chol_422_444" align="center" class="td_desc nofont dtl_444_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_422_444" class="td_desc odd nofont dtl_444_9" align="center"  style="font-size:0px; color:#fff;" >0.38</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_339" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_339" >+</span>&nbsp;<span id="dtl_339" class="click_popup" data-title="Cheese" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Cheese-2.png" alt="" width="48"  />&nbsp;Cheese&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_339" class="odd nofont dtl_339_1" align="center"  style="font-size:0px; color:#fff;" >67</td>
+		<td id="totalfat_311_339" align="center" class="td_desc nofont dtl_339_2"  style="font-size:0px; color:#fff;" >5.2</td>
+		<td id="satfat_311_339" class="td_desc odd nofont dtl_339_3" align="center"  style="font-size:0px; color:#fff;" >3.3</td>
+        <td id="sodium_311_339" align="center" class="td_desc nofont dtl_339_4"  style="font-size:0px; color:#fff;" >148.1</td>
+        <td id="carbo_311_339" class="td_desc odd nofont dtl_339_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_311_339" align="center" class="td_desc nofont dtl_339_6" style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="difi_311_339" class="td_desc odd nofont dtl_339_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_311_339" align="center" class="td_desc nofont dtl_339_8" style="font-size:0px; color:#fff;" >16.6</td>
+        <td id="sugars_311_339" class="td_desc odd nofont dtl_339_9" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_279" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_279" >+</span>&nbsp;<span id="dtl_279" class="click_popup" data-title="Tortilla 12"" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/sub-product-1.png" alt="" width="48"  />&nbsp;Tortilla 12"&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_279" class="odd nofont dtl_279_1" align="center"  style="font-size:0px; color:#fff;" >249.6</td>
+		<td id="totalfat_311_279" align="center" class="td_desc nofont dtl_279_2"  style="font-size:0px; color:#fff;" >6.2</td>
+		<td id="satfat_311_279" class="td_desc odd nofont dtl_279_3" align="center"  style="font-size:0px; color:#fff;" >1.51</td>
+        <td id="sodium_311_279" align="center" class="td_desc nofont dtl_279_4"  style="font-size:0px; color:#fff;" >508.8</td>
+        <td id="carbo_311_279" class="td_desc odd nofont dtl_279_5" align="center"  style="font-size:0px; color:#fff;" >41.08</td>
+        <td id="protein_311_279" align="center" class="td_desc nofont dtl_279_6" style="font-size:0px; color:#fff;" >6.63</td>
+        <td id="difi_311_279" class="td_desc odd nofont dtl_279_7" align="center"  style="font-size:0px; color:#fff;" >2.48</td>
+        <td id="chol_311_279" align="center" class="td_desc nofont dtl_279_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_311_279" class="td_desc odd nofont dtl_279_9" align="center"  style="font-size:0px; color:#fff;" >1.54</td>
+    </tr>
+		<tr class="rectr rectr2 rec_309 cls_4 " ><td colspan="10" class="tbl-ttl">Main</td></tr>     	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_267" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_267" >+</span>&nbsp;<span id="dtl_267" class="click_popup" data-title="Chicken" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Chicken.png" alt="" width="48"  />&nbsp;Chicken&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_267" class="odd nofont dtl_267_1" align="center"  style="font-size:0px; color:#fff;" >223.65</td>
+		<td id="totalfat_309_267" align="center" class="td_desc nofont dtl_267_2"  style="font-size:0px; color:#fff;" >14.31</td>
+		<td id="satfat_309_267" class="td_desc odd nofont dtl_267_3" align="center"  style="font-size:0px; color:#fff;" >3.96</td>
+        <td id="sodium_309_267" align="center" class="td_desc nofont dtl_267_4"  style="font-size:0px; color:#fff;" >420.48</td>
+        <td id="carbo_309_267" class="td_desc odd nofont dtl_267_5" align="center"  style="font-size:0px; color:#fff;" >6.75</td>
+        <td id="protein_309_267" align="center" class="td_desc nofont dtl_267_6" style="font-size:0px; color:#fff;" >16.47</td>
+        <td id="difi_309_267" class="td_desc odd nofont dtl_267_7" align="center"  style="font-size:0px; color:#fff;" >2.97</td>
+        <td id="chol_309_267" align="center" class="td_desc nofont dtl_267_8" style="font-size:0px; color:#fff;" >71.1</td>
+        <td id="sugars_309_267" class="td_desc odd nofont dtl_267_9" align="center"  style="font-size:0px; color:#fff;" >3.15</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_266" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_266" >+</span>&nbsp;<span id="dtl_266" class="click_popup" data-title="Beef" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Beef.png" alt="" width="48"  />&nbsp;Beef&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_266" class="odd nofont dtl_266_1" align="center"  style="font-size:0px; color:#fff;" >233.2</td>
+		<td id="totalfat_309_266" align="center" class="td_desc nofont dtl_266_2"  style="font-size:0px; color:#fff;" >11.4</td>
+		<td id="satfat_309_266" class="td_desc odd nofont dtl_266_3" align="center"  style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="sodium_309_266" align="center" class="td_desc nofont dtl_266_4"  style="font-size:0px; color:#fff;" >457.8</td>
+        <td id="carbo_309_266" class="td_desc odd nofont dtl_266_5" align="center"  style="font-size:0px; color:#fff;" >16.7</td>
+        <td id="protein_309_266" align="center" class="td_desc nofont dtl_266_6" style="font-size:0px; color:#fff;" >17.7</td>
+        <td id="difi_309_266" class="td_desc odd nofont dtl_266_7" align="center"  style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="chol_309_266" align="center" class="td_desc nofont dtl_266_8" style="font-size:0px; color:#fff;" >44.3</td>
+        <td id="sugars_309_266" class="td_desc odd nofont dtl_266_9" align="center"  style="font-size:0px; color:#fff;" >9</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_267" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_267" >+</span>&nbsp;<span id="dtl_267" class="click_popup" data-title="Chicken" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Chicken.png" alt="" width="48"  />&nbsp;Chicken&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_267" class="odd nofont dtl_267_1" align="center"  style="font-size:0px; color:#fff;" >223.65</td>
+		<td id="totalfat_271_267" align="center" class="td_desc nofont dtl_267_2"  style="font-size:0px; color:#fff;" >14.31</td>
+		<td id="satfat_271_267" class="td_desc odd nofont dtl_267_3" align="center"  style="font-size:0px; color:#fff;" >3.96</td>
+        <td id="sodium_271_267" align="center" class="td_desc nofont dtl_267_4"  style="font-size:0px; color:#fff;" >420.48</td>
+        <td id="carbo_271_267" class="td_desc odd nofont dtl_267_5" align="center"  style="font-size:0px; color:#fff;" >6.75</td>
+        <td id="protein_271_267" align="center" class="td_desc nofont dtl_267_6" style="font-size:0px; color:#fff;" >16.47</td>
+        <td id="difi_271_267" class="td_desc odd nofont dtl_267_7" align="center"  style="font-size:0px; color:#fff;" >2.97</td>
+        <td id="chol_271_267" align="center" class="td_desc nofont dtl_267_8" style="font-size:0px; color:#fff;" >71.1</td>
+        <td id="sugars_271_267" class="td_desc odd nofont dtl_267_9" align="center"  style="font-size:0px; color:#fff;" >3.15</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_266" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_266" >+</span>&nbsp;<span id="dtl_266" class="click_popup" data-title="Beef" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Beef.png" alt="" width="48"  />&nbsp;Beef&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_266" class="odd nofont dtl_266_1" align="center"  style="font-size:0px; color:#fff;" >233.2</td>
+		<td id="totalfat_271_266" align="center" class="td_desc nofont dtl_266_2"  style="font-size:0px; color:#fff;" >11.4</td>
+		<td id="satfat_271_266" class="td_desc odd nofont dtl_266_3" align="center"  style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="sodium_271_266" align="center" class="td_desc nofont dtl_266_4"  style="font-size:0px; color:#fff;" >457.8</td>
+        <td id="carbo_271_266" class="td_desc odd nofont dtl_266_5" align="center"  style="font-size:0px; color:#fff;" >16.7</td>
+        <td id="protein_271_266" align="center" class="td_desc nofont dtl_266_6" style="font-size:0px; color:#fff;" >17.7</td>
+        <td id="difi_271_266" class="td_desc odd nofont dtl_266_7" align="center"  style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="chol_271_266" align="center" class="td_desc nofont dtl_266_8" style="font-size:0px; color:#fff;" >44.3</td>
+        <td id="sugars_271_266" class="td_desc odd nofont dtl_266_9" align="center"  style="font-size:0px; color:#fff;" >9</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_305" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_305" >+</span>&nbsp;<span id="dtl_305" class="click_popup" data-title="Smoked Salmon" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/smocke-sammlon.png" alt="Smoked Salmon" width="48"  />&nbsp;Smoked Salmon&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_305" class="odd nofont dtl_305_1" align="center"  style="font-size:0px; color:#fff;" >81.9</td>
+		<td id="totalfat_310_305" align="center" class="td_desc nofont dtl_305_2"  style="font-size:0px; color:#fff;" >3.02</td>
+		<td id="satfat_310_305" class="td_desc odd nofont dtl_305_3" align="center"  style="font-size:0px; color:#fff;" >0.65</td>
+        <td id="sodium_310_305" align="center" class="td_desc nofont dtl_305_4"  style="font-size:0px; color:#fff;" >548.8</td>
+        <td id="carbo_310_305" class="td_desc odd nofont dtl_305_5" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="protein_310_305" align="center" class="td_desc nofont dtl_305_6" style="font-size:0px; color:#fff;" >12.8</td>
+        <td id="difi_310_305" class="td_desc odd nofont dtl_305_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_310_305" align="center" class="td_desc nofont dtl_305_8" style="font-size:0px; color:#fff;" >16.1</td>
+        <td id="sugars_310_305" class="td_desc odd nofont dtl_305_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_267" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_267" >+</span>&nbsp;<span id="dtl_267" class="click_popup" data-title="Chicken" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Chicken.png" alt="" width="48"  />&nbsp;Chicken&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_267" class="odd nofont dtl_267_1" align="center"  style="font-size:0px; color:#fff;" >223.65</td>
+		<td id="totalfat_310_267" align="center" class="td_desc nofont dtl_267_2"  style="font-size:0px; color:#fff;" >14.31</td>
+		<td id="satfat_310_267" class="td_desc odd nofont dtl_267_3" align="center"  style="font-size:0px; color:#fff;" >3.96</td>
+        <td id="sodium_310_267" align="center" class="td_desc nofont dtl_267_4"  style="font-size:0px; color:#fff;" >420.48</td>
+        <td id="carbo_310_267" class="td_desc odd nofont dtl_267_5" align="center"  style="font-size:0px; color:#fff;" >6.75</td>
+        <td id="protein_310_267" align="center" class="td_desc nofont dtl_267_6" style="font-size:0px; color:#fff;" >16.47</td>
+        <td id="difi_310_267" class="td_desc odd nofont dtl_267_7" align="center"  style="font-size:0px; color:#fff;" >2.97</td>
+        <td id="chol_310_267" align="center" class="td_desc nofont dtl_267_8" style="font-size:0px; color:#fff;" >71.1</td>
+        <td id="sugars_310_267" class="td_desc odd nofont dtl_267_9" align="center"  style="font-size:0px; color:#fff;" >3.15</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_266" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_266" >+</span>&nbsp;<span id="dtl_266" class="click_popup" data-title="Beef" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Beef.png" alt="" width="48"  />&nbsp;Beef&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_266" class="odd nofont dtl_266_1" align="center"  style="font-size:0px; color:#fff;" >233.2</td>
+		<td id="totalfat_310_266" align="center" class="td_desc nofont dtl_266_2"  style="font-size:0px; color:#fff;" >11.4</td>
+		<td id="satfat_310_266" class="td_desc odd nofont dtl_266_3" align="center"  style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="sodium_310_266" align="center" class="td_desc nofont dtl_266_4"  style="font-size:0px; color:#fff;" >457.8</td>
+        <td id="carbo_310_266" class="td_desc odd nofont dtl_266_5" align="center"  style="font-size:0px; color:#fff;" >16.7</td>
+        <td id="protein_310_266" align="center" class="td_desc nofont dtl_266_6" style="font-size:0px; color:#fff;" >17.7</td>
+        <td id="difi_310_266" class="td_desc odd nofont dtl_266_7" align="center"  style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="chol_310_266" align="center" class="td_desc nofont dtl_266_8" style="font-size:0px; color:#fff;" >44.3</td>
+        <td id="sugars_310_266" class="td_desc odd nofont dtl_266_9" align="center"  style="font-size:0px; color:#fff;" >9</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_422 rec_td_422_267" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_422_267" >+</span>&nbsp;<span id="dtl_267" class="click_popup" data-title="Chicken" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Chicken.png" alt="" width="48"  />&nbsp;Chicken&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_422_267" class="odd nofont dtl_267_1" align="center"  style="font-size:0px; color:#fff;" >223.65</td>
+		<td id="totalfat_422_267" align="center" class="td_desc nofont dtl_267_2"  style="font-size:0px; color:#fff;" >14.31</td>
+		<td id="satfat_422_267" class="td_desc odd nofont dtl_267_3" align="center"  style="font-size:0px; color:#fff;" >3.96</td>
+        <td id="sodium_422_267" align="center" class="td_desc nofont dtl_267_4"  style="font-size:0px; color:#fff;" >420.48</td>
+        <td id="carbo_422_267" class="td_desc odd nofont dtl_267_5" align="center"  style="font-size:0px; color:#fff;" >6.75</td>
+        <td id="protein_422_267" align="center" class="td_desc nofont dtl_267_6" style="font-size:0px; color:#fff;" >16.47</td>
+        <td id="difi_422_267" class="td_desc odd nofont dtl_267_7" align="center"  style="font-size:0px; color:#fff;" >2.97</td>
+        <td id="chol_422_267" align="center" class="td_desc nofont dtl_267_8" style="font-size:0px; color:#fff;" >71.1</td>
+        <td id="sugars_422_267" class="td_desc odd nofont dtl_267_9" align="center"  style="font-size:0px; color:#fff;" >3.15</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_422 rec_td_422_266" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_422_266" >+</span>&nbsp;<span id="dtl_266" class="click_popup" data-title="Beef" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Beef.png" alt="" width="48"  />&nbsp;Beef&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_422_266" class="odd nofont dtl_266_1" align="center"  style="font-size:0px; color:#fff;" >233.2</td>
+		<td id="totalfat_422_266" align="center" class="td_desc nofont dtl_266_2"  style="font-size:0px; color:#fff;" >11.4</td>
+		<td id="satfat_422_266" class="td_desc odd nofont dtl_266_3" align="center"  style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="sodium_422_266" align="center" class="td_desc nofont dtl_266_4"  style="font-size:0px; color:#fff;" >457.8</td>
+        <td id="carbo_422_266" class="td_desc odd nofont dtl_266_5" align="center"  style="font-size:0px; color:#fff;" >16.7</td>
+        <td id="protein_422_266" align="center" class="td_desc nofont dtl_266_6" style="font-size:0px; color:#fff;" >17.7</td>
+        <td id="difi_422_266" class="td_desc odd nofont dtl_266_7" align="center"  style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="chol_422_266" align="center" class="td_desc nofont dtl_266_8" style="font-size:0px; color:#fff;" >44.3</td>
+        <td id="sugars_422_266" class="td_desc odd nofont dtl_266_9" align="center"  style="font-size:0px; color:#fff;" >9</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_267" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_267" >+</span>&nbsp;<span id="dtl_267" class="click_popup" data-title="Chicken" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Chicken.png" alt="" width="48"  />&nbsp;Chicken&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_267" class="odd nofont dtl_267_1" align="center"  style="font-size:0px; color:#fff;" >223.65</td>
+		<td id="totalfat_311_267" align="center" class="td_desc nofont dtl_267_2"  style="font-size:0px; color:#fff;" >14.31</td>
+		<td id="satfat_311_267" class="td_desc odd nofont dtl_267_3" align="center"  style="font-size:0px; color:#fff;" >3.96</td>
+        <td id="sodium_311_267" align="center" class="td_desc nofont dtl_267_4"  style="font-size:0px; color:#fff;" >420.48</td>
+        <td id="carbo_311_267" class="td_desc odd nofont dtl_267_5" align="center"  style="font-size:0px; color:#fff;" >6.75</td>
+        <td id="protein_311_267" align="center" class="td_desc nofont dtl_267_6" style="font-size:0px; color:#fff;" >16.47</td>
+        <td id="difi_311_267" class="td_desc odd nofont dtl_267_7" align="center"  style="font-size:0px; color:#fff;" >2.97</td>
+        <td id="chol_311_267" align="center" class="td_desc nofont dtl_267_8" style="font-size:0px; color:#fff;" >71.1</td>
+        <td id="sugars_311_267" class="td_desc odd nofont dtl_267_9" align="center"  style="font-size:0px; color:#fff;" >3.15</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_266" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_266" >+</span>&nbsp;<span id="dtl_266" class="click_popup" data-title="Beef" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Beef.png" alt="" width="48"  />&nbsp;Beef&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_266" class="odd nofont dtl_266_1" align="center"  style="font-size:0px; color:#fff;" >233.2</td>
+		<td id="totalfat_311_266" align="center" class="td_desc nofont dtl_266_2"  style="font-size:0px; color:#fff;" >11.4</td>
+		<td id="satfat_311_266" class="td_desc odd nofont dtl_266_3" align="center"  style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="sodium_311_266" align="center" class="td_desc nofont dtl_266_4"  style="font-size:0px; color:#fff;" >457.8</td>
+        <td id="carbo_311_266" class="td_desc odd nofont dtl_266_5" align="center"  style="font-size:0px; color:#fff;" >16.7</td>
+        <td id="protein_311_266" align="center" class="td_desc nofont dtl_266_6" style="font-size:0px; color:#fff;" >17.7</td>
+        <td id="difi_311_266" class="td_desc odd nofont dtl_266_7" align="center"  style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="chol_311_266" align="center" class="td_desc nofont dtl_266_8" style="font-size:0px; color:#fff;" >44.3</td>
+        <td id="sugars_311_266" class="td_desc odd nofont dtl_266_9" align="center"  style="font-size:0px; color:#fff;" >9</td>
+    </tr>
+		<tr class="rectr rectr2 rec_309 cls_5 " ><td colspan="10" class="tbl-ttl">Base</td></tr>     	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_285" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_285" >+</span>&nbsp;<span id="dtl_285" class="click_popup" data-title="Onion" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/onion-1.png" alt="" width="48"  />&nbsp;Onion&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_285" class="odd nofont dtl_285_1" align="center"  style="font-size:0px; color:#fff;" >12</td>
+		<td id="totalfat_309_285" align="center" class="td_desc nofont dtl_285_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_309_285" class="td_desc odd nofont dtl_285_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_309_285" align="center" class="td_desc nofont dtl_285_4"  style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="carbo_309_285" class="td_desc odd nofont dtl_285_5" align="center"  style="font-size:0px; color:#fff;" >2.8</td>
+        <td id="protein_309_285" align="center" class="td_desc nofont dtl_285_6" style="font-size:0px; color:#fff;" >0.3</td>
+        <td id="difi_309_285" class="td_desc odd nofont dtl_285_7" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+        <td id="chol_309_285" align="center" class="td_desc nofont dtl_285_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_285" class="td_desc odd nofont dtl_285_9" align="center"  style="font-size:0px; color:#fff;" >1.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_284" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_284" >+</span>&nbsp;<span id="dtl_284" class="click_popup" data-title="Cucumber" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Cucumber-1.png" alt="" width="48"  />&nbsp;Cucumber&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_284" class="odd nofont dtl_284_1" align="center"  style="font-size:0px; color:#fff;" >2.8</td>
+		<td id="totalfat_309_284" align="center" class="td_desc nofont dtl_284_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_309_284" class="td_desc odd nofont dtl_284_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_309_284" align="center" class="td_desc nofont dtl_284_4"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="carbo_309_284" class="td_desc odd nofont dtl_284_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_309_284" align="center" class="td_desc nofont dtl_284_6" style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="difi_309_284" class="td_desc odd nofont dtl_284_7" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="chol_309_284" align="center" class="td_desc nofont dtl_284_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_284" class="td_desc odd nofont dtl_284_9" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_283" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_283" >+</span>&nbsp;<span id="dtl_283" class="click_popup" data-title="Tomato" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Tomato.png" alt="" width="48"  />&nbsp;Tomato&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_283" class="odd nofont dtl_283_1" align="center"  style="font-size:0px; color:#fff;" >1.8</td>
+		<td id="totalfat_309_283" align="center" class="td_desc nofont dtl_283_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_309_283" class="td_desc odd nofont dtl_283_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_309_283" align="center" class="td_desc nofont dtl_283_4"  style="font-size:0px; color:#fff;" >0.5</td>
+        <td id="carbo_309_283" class="td_desc odd nofont dtl_283_5" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="protein_309_283" align="center" class="td_desc nofont dtl_283_6" style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="difi_309_283" class="td_desc odd nofont dtl_283_7" align="center"  style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="chol_309_283" align="center" class="td_desc nofont dtl_283_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_283" class="td_desc odd nofont dtl_283_9" align="center"  style="font-size:0px; color:#fff;" >0.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_282" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_282" >+</span>&nbsp;<span id="dtl_282" class="click_popup" data-title="Cabbage" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/cabbage-2.png" alt="" width="48"  />&nbsp;Cabbage&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_282" class="odd nofont dtl_282_1" align="center"  style="font-size:0px; color:#fff;" >6.2</td>
+		<td id="totalfat_309_282" align="center" class="td_desc nofont dtl_282_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_309_282" class="td_desc odd nofont dtl_282_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_309_282" align="center" class="td_desc nofont dtl_282_4"  style="font-size:0px; color:#fff;" >5.4</td>
+        <td id="carbo_309_282" class="td_desc odd nofont dtl_282_5" align="center"  style="font-size:0px; color:#fff;" >1.5</td>
+        <td id="protein_309_282" align="center" class="td_desc nofont dtl_282_6" style="font-size:0px; color:#fff;" >0.3</td>
+        <td id="difi_309_282" class="td_desc odd nofont dtl_282_7" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="chol_309_282" align="center" class="td_desc nofont dtl_282_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_282" class="td_desc odd nofont dtl_282_9" align="center"  style="font-size:0px; color:#fff;" >0.8</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_281" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_281" >+</span>&nbsp;<span id="dtl_281" class="click_popup" data-title="Lettuce" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/lettuce-3.png" alt="Lettuce" width="48"  />&nbsp;Lettuce&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_281" class="odd nofont dtl_281_1" align="center"  style="font-size:0px; color:#fff;" >2.8</td>
+		<td id="totalfat_309_281" align="center" class="td_desc nofont dtl_281_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_309_281" class="td_desc odd nofont dtl_281_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_309_281" align="center" class="td_desc nofont dtl_281_4"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="carbo_309_281" class="td_desc odd nofont dtl_281_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_309_281" align="center" class="td_desc nofont dtl_281_6" style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="difi_309_281" class="td_desc odd nofont dtl_281_7" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="chol_309_281" align="center" class="td_desc nofont dtl_281_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_281" class="td_desc odd nofont dtl_281_9" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_341" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_341" >+</span>&nbsp;<span id="dtl_341" class="click_popup" data-title="Salsa" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/salsa.png" alt="Salsa" width="48"  />&nbsp;Salsa&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_341" class="odd nofont dtl_341_1" align="center"  style="font-size:0px; color:#fff;" >9.4</td>
+		<td id="totalfat_271_341" align="center" class="td_desc nofont dtl_341_2"  style="font-size:0px; color:#fff;" >0.1</td>
+		<td id="satfat_271_341" class="td_desc odd nofont dtl_341_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_271_341" align="center" class="td_desc nofont dtl_341_4"  style="font-size:0px; color:#fff;" >389.5</td>
+        <td id="carbo_271_341" class="td_desc odd nofont dtl_341_5" align="center"  style="font-size:0px; color:#fff;" >2.1</td>
+        <td id="protein_271_341" align="center" class="td_desc nofont dtl_341_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_271_341" class="td_desc odd nofont dtl_341_7" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+        <td id="chol_271_341" align="center" class="td_desc nofont dtl_341_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_341" class="td_desc odd nofont dtl_341_9" align="center"  style="font-size:0px; color:#fff;" >1.2</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_340" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_340" >+</span>&nbsp;<span id="dtl_340" class="click_popup" data-title="Sour Cream" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/sour-cream.png" alt="Sour Cream" width="48"  />&nbsp;Sour Cream&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_340" class="odd nofont dtl_340_1" align="center"  style="font-size:0px; color:#fff;" >42.8</td>
+		<td id="totalfat_271_340" align="center" class="td_desc nofont dtl_340_2"  style="font-size:0px; color:#fff;" >4.19</td>
+		<td id="satfat_271_340" class="td_desc odd nofont dtl_340_3" align="center"  style="font-size:0px; color:#fff;" >2.61</td>
+        <td id="sodium_271_340" align="center" class="td_desc nofont dtl_340_4"  style="font-size:0px; color:#fff;" >10.6</td>
+        <td id="carbo_271_340" class="td_desc odd nofont dtl_340_5" align="center"  style="font-size:0px; color:#fff;" >0.85</td>
+        <td id="protein_271_340" align="center" class="td_desc nofont dtl_340_6" style="font-size:0px; color:#fff;" >0.63</td>
+        <td id="difi_271_340" class="td_desc odd nofont dtl_340_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_271_340" align="center" class="td_desc nofont dtl_340_8" style="font-size:0px; color:#fff;" >8.8</td>
+        <td id="sugars_271_340" class="td_desc odd nofont dtl_340_9" align="center"  style="font-size:0px; color:#fff;" >0.03</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_281" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_281" >+</span>&nbsp;<span id="dtl_281" class="click_popup" data-title="Lettuce" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/lettuce-3.png" alt="Lettuce" width="48"  />&nbsp;Lettuce&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_281" class="odd nofont dtl_281_1" align="center"  style="font-size:0px; color:#fff;" >2.8</td>
+		<td id="totalfat_271_281" align="center" class="td_desc nofont dtl_281_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_271_281" class="td_desc odd nofont dtl_281_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_271_281" align="center" class="td_desc nofont dtl_281_4"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="carbo_271_281" class="td_desc odd nofont dtl_281_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_271_281" align="center" class="td_desc nofont dtl_281_6" style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="difi_271_281" class="td_desc odd nofont dtl_281_7" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="chol_271_281" align="center" class="td_desc nofont dtl_281_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_281" class="td_desc odd nofont dtl_281_9" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_285" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_285" >+</span>&nbsp;<span id="dtl_285" class="click_popup" data-title="Onion" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/onion-1.png" alt="" width="48"  />&nbsp;Onion&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_285" class="odd nofont dtl_285_1" align="center"  style="font-size:0px; color:#fff;" >12</td>
+		<td id="totalfat_310_285" align="center" class="td_desc nofont dtl_285_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_310_285" class="td_desc odd nofont dtl_285_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_285" align="center" class="td_desc nofont dtl_285_4"  style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="carbo_310_285" class="td_desc odd nofont dtl_285_5" align="center"  style="font-size:0px; color:#fff;" >2.8</td>
+        <td id="protein_310_285" align="center" class="td_desc nofont dtl_285_6" style="font-size:0px; color:#fff;" >0.3</td>
+        <td id="difi_310_285" class="td_desc odd nofont dtl_285_7" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+        <td id="chol_310_285" align="center" class="td_desc nofont dtl_285_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_285" class="td_desc odd nofont dtl_285_9" align="center"  style="font-size:0px; color:#fff;" >1.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_284" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_284" >+</span>&nbsp;<span id="dtl_284" class="click_popup" data-title="Cucumber" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Cucumber-1.png" alt="" width="48"  />&nbsp;Cucumber&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_284" class="odd nofont dtl_284_1" align="center"  style="font-size:0px; color:#fff;" >2.8</td>
+		<td id="totalfat_310_284" align="center" class="td_desc nofont dtl_284_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_310_284" class="td_desc odd nofont dtl_284_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_284" align="center" class="td_desc nofont dtl_284_4"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="carbo_310_284" class="td_desc odd nofont dtl_284_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_310_284" align="center" class="td_desc nofont dtl_284_6" style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="difi_310_284" class="td_desc odd nofont dtl_284_7" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="chol_310_284" align="center" class="td_desc nofont dtl_284_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_284" class="td_desc odd nofont dtl_284_9" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_283" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_283" >+</span>&nbsp;<span id="dtl_283" class="click_popup" data-title="Tomato" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Tomato.png" alt="" width="48"  />&nbsp;Tomato&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_283" class="odd nofont dtl_283_1" align="center"  style="font-size:0px; color:#fff;" >1.8</td>
+		<td id="totalfat_310_283" align="center" class="td_desc nofont dtl_283_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_310_283" class="td_desc odd nofont dtl_283_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_283" align="center" class="td_desc nofont dtl_283_4"  style="font-size:0px; color:#fff;" >0.5</td>
+        <td id="carbo_310_283" class="td_desc odd nofont dtl_283_5" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="protein_310_283" align="center" class="td_desc nofont dtl_283_6" style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="difi_310_283" class="td_desc odd nofont dtl_283_7" align="center"  style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="chol_310_283" align="center" class="td_desc nofont dtl_283_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_283" class="td_desc odd nofont dtl_283_9" align="center"  style="font-size:0px; color:#fff;" >0.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_282" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_282" >+</span>&nbsp;<span id="dtl_282" class="click_popup" data-title="Cabbage" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/cabbage-2.png" alt="" width="48"  />&nbsp;Cabbage&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_282" class="odd nofont dtl_282_1" align="center"  style="font-size:0px; color:#fff;" >6.2</td>
+		<td id="totalfat_310_282" align="center" class="td_desc nofont dtl_282_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_310_282" class="td_desc odd nofont dtl_282_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_282" align="center" class="td_desc nofont dtl_282_4"  style="font-size:0px; color:#fff;" >5.4</td>
+        <td id="carbo_310_282" class="td_desc odd nofont dtl_282_5" align="center"  style="font-size:0px; color:#fff;" >1.5</td>
+        <td id="protein_310_282" align="center" class="td_desc nofont dtl_282_6" style="font-size:0px; color:#fff;" >0.3</td>
+        <td id="difi_310_282" class="td_desc odd nofont dtl_282_7" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="chol_310_282" align="center" class="td_desc nofont dtl_282_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_282" class="td_desc odd nofont dtl_282_9" align="center"  style="font-size:0px; color:#fff;" >0.8</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_281" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_281" >+</span>&nbsp;<span id="dtl_281" class="click_popup" data-title="Lettuce" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/lettuce-3.png" alt="Lettuce" width="48"  />&nbsp;Lettuce&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_281" class="odd nofont dtl_281_1" align="center"  style="font-size:0px; color:#fff;" >2.8</td>
+		<td id="totalfat_310_281" align="center" class="td_desc nofont dtl_281_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_310_281" class="td_desc odd nofont dtl_281_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_281" align="center" class="td_desc nofont dtl_281_4"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="carbo_310_281" class="td_desc odd nofont dtl_281_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_310_281" align="center" class="td_desc nofont dtl_281_6" style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="difi_310_281" class="td_desc odd nofont dtl_281_7" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="chol_310_281" align="center" class="td_desc nofont dtl_281_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_281" class="td_desc odd nofont dtl_281_9" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_422 rec_td_422_439" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_422_439" >+</span>&nbsp;<span id="dtl_439" class="click_popup" data-title="Lime" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/lime-3.png" alt="" width="48"  />&nbsp;Lime&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_422_439" class="odd nofont dtl_439_1" align="center"  style="font-size:0px; color:#fff;" >5</td>
+		<td id="totalfat_422_439" align="center" class="td_desc nofont dtl_439_2"  style="font-size:0px; color:#fff;" >0.03</td>
+		<td id="satfat_422_439" class="td_desc odd nofont dtl_439_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_422_439" align="center" class="td_desc nofont dtl_439_4"  style="font-size:0px; color:#fff;" >0.25</td>
+        <td id="carbo_422_439" class="td_desc odd nofont dtl_439_5" align="center"  style="font-size:0px; color:#fff;" >1.77</td>
+        <td id="protein_422_439" align="center" class="td_desc nofont dtl_439_6" style="font-size:0px; color:#fff;" >0.12</td>
+        <td id="difi_422_439" class="td_desc odd nofont dtl_439_7" align="center"  style="font-size:0px; color:#fff;" >0.48</td>
+        <td id="chol_422_439" align="center" class="td_desc nofont dtl_439_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_422_439" class="td_desc odd nofont dtl_439_9" align="center"  style="font-size:0px; color:#fff;" >0.28</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_422 rec_td_422_426" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_422_426" >+</span>&nbsp;<span id="dtl_426" class="click_popup" data-title="Cilantro" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/cilantro-7.png" alt="" width="48"  />&nbsp;Cilantro&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_422_426" class="odd nofont dtl_426_1" align="center"  style="font-size:0px; color:#fff;" >17.9</td>
+		<td id="totalfat_422_426" align="center" class="td_desc nofont dtl_426_2"  style="font-size:0px; color:#fff;" >1.1</td>
+		<td id="satfat_422_426" class="td_desc odd nofont dtl_426_3" align="center"  style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="sodium_422_426" align="center" class="td_desc nofont dtl_426_4"  style="font-size:0px; color:#fff;" >2.1</td>
+        <td id="carbo_422_426" class="td_desc odd nofont dtl_426_5" align="center"  style="font-size:0px; color:#fff;" >3.3</td>
+        <td id="protein_422_426" align="center" class="td_desc nofont dtl_426_6" style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="difi_422_426" class="td_desc odd nofont dtl_426_7" align="center"  style="font-size:0px; color:#fff;" >2.5</td>
+        <td id="chol_422_426" align="center" class="td_desc nofont dtl_426_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_422_426" class="td_desc odd nofont dtl_426_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_422 rec_td_422_341" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_422_341" >+</span>&nbsp;<span id="dtl_341" class="click_popup" data-title="Salsa" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/salsa.png" alt="Salsa" width="48"  />&nbsp;Salsa&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_422_341" class="odd nofont dtl_341_1" align="center"  style="font-size:0px; color:#fff;" >9.4</td>
+		<td id="totalfat_422_341" align="center" class="td_desc nofont dtl_341_2"  style="font-size:0px; color:#fff;" >0.1</td>
+		<td id="satfat_422_341" class="td_desc odd nofont dtl_341_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_422_341" align="center" class="td_desc nofont dtl_341_4"  style="font-size:0px; color:#fff;" >389.5</td>
+        <td id="carbo_422_341" class="td_desc odd nofont dtl_341_5" align="center"  style="font-size:0px; color:#fff;" >2.1</td>
+        <td id="protein_422_341" align="center" class="td_desc nofont dtl_341_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_422_341" class="td_desc odd nofont dtl_341_7" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+        <td id="chol_422_341" align="center" class="td_desc nofont dtl_341_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_422_341" class="td_desc odd nofont dtl_341_9" align="center"  style="font-size:0px; color:#fff;" >1.2</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_422 rec_td_422_340" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_422_340" >+</span>&nbsp;<span id="dtl_340" class="click_popup" data-title="Sour Cream" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/sour-cream.png" alt="Sour Cream" width="48"  />&nbsp;Sour Cream&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_422_340" class="odd nofont dtl_340_1" align="center"  style="font-size:0px; color:#fff;" >42.8</td>
+		<td id="totalfat_422_340" align="center" class="td_desc nofont dtl_340_2"  style="font-size:0px; color:#fff;" >4.19</td>
+		<td id="satfat_422_340" class="td_desc odd nofont dtl_340_3" align="center"  style="font-size:0px; color:#fff;" >2.61</td>
+        <td id="sodium_422_340" align="center" class="td_desc nofont dtl_340_4"  style="font-size:0px; color:#fff;" >10.6</td>
+        <td id="carbo_422_340" class="td_desc odd nofont dtl_340_5" align="center"  style="font-size:0px; color:#fff;" >0.85</td>
+        <td id="protein_422_340" align="center" class="td_desc nofont dtl_340_6" style="font-size:0px; color:#fff;" >0.63</td>
+        <td id="difi_422_340" class="td_desc odd nofont dtl_340_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_422_340" align="center" class="td_desc nofont dtl_340_8" style="font-size:0px; color:#fff;" >8.8</td>
+        <td id="sugars_422_340" class="td_desc odd nofont dtl_340_9" align="center"  style="font-size:0px; color:#fff;" >0.03</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_341" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_341" >+</span>&nbsp;<span id="dtl_341" class="click_popup" data-title="Salsa" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/salsa.png" alt="Salsa" width="48"  />&nbsp;Salsa&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_341" class="odd nofont dtl_341_1" align="center"  style="font-size:0px; color:#fff;" >9.4</td>
+		<td id="totalfat_311_341" align="center" class="td_desc nofont dtl_341_2"  style="font-size:0px; color:#fff;" >0.1</td>
+		<td id="satfat_311_341" class="td_desc odd nofont dtl_341_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_311_341" align="center" class="td_desc nofont dtl_341_4"  style="font-size:0px; color:#fff;" >389.5</td>
+        <td id="carbo_311_341" class="td_desc odd nofont dtl_341_5" align="center"  style="font-size:0px; color:#fff;" >2.1</td>
+        <td id="protein_311_341" align="center" class="td_desc nofont dtl_341_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_311_341" class="td_desc odd nofont dtl_341_7" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+        <td id="chol_311_341" align="center" class="td_desc nofont dtl_341_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_311_341" class="td_desc odd nofont dtl_341_9" align="center"  style="font-size:0px; color:#fff;" >1.2</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_340" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_340" >+</span>&nbsp;<span id="dtl_340" class="click_popup" data-title="Sour Cream" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/sour-cream.png" alt="Sour Cream" width="48"  />&nbsp;Sour Cream&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_340" class="odd nofont dtl_340_1" align="center"  style="font-size:0px; color:#fff;" >42.8</td>
+		<td id="totalfat_311_340" align="center" class="td_desc nofont dtl_340_2"  style="font-size:0px; color:#fff;" >4.19</td>
+		<td id="satfat_311_340" class="td_desc odd nofont dtl_340_3" align="center"  style="font-size:0px; color:#fff;" >2.61</td>
+        <td id="sodium_311_340" align="center" class="td_desc nofont dtl_340_4"  style="font-size:0px; color:#fff;" >10.6</td>
+        <td id="carbo_311_340" class="td_desc odd nofont dtl_340_5" align="center"  style="font-size:0px; color:#fff;" >0.85</td>
+        <td id="protein_311_340" align="center" class="td_desc nofont dtl_340_6" style="font-size:0px; color:#fff;" >0.63</td>
+        <td id="difi_311_340" class="td_desc odd nofont dtl_340_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_311_340" align="center" class="td_desc nofont dtl_340_8" style="font-size:0px; color:#fff;" >8.8</td>
+        <td id="sugars_311_340" class="td_desc odd nofont dtl_340_9" align="center"  style="font-size:0px; color:#fff;" >0.03</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_281" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_281" >+</span>&nbsp;<span id="dtl_281" class="click_popup" data-title="Lettuce" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/lettuce-3.png" alt="Lettuce" width="48"  />&nbsp;Lettuce&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_281" class="odd nofont dtl_281_1" align="center"  style="font-size:0px; color:#fff;" >2.8</td>
+		<td id="totalfat_311_281" align="center" class="td_desc nofont dtl_281_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_311_281" class="td_desc odd nofont dtl_281_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_311_281" align="center" class="td_desc nofont dtl_281_4"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="carbo_311_281" class="td_desc odd nofont dtl_281_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_311_281" align="center" class="td_desc nofont dtl_281_6" style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="difi_311_281" class="td_desc odd nofont dtl_281_7" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="chol_311_281" align="center" class="td_desc nofont dtl_281_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_311_281" class="td_desc odd nofont dtl_281_9" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+    </tr>
+		<tr class="rectr rectr2 rec_271 cls_6 " ><td colspan="10" class="tbl-ttl">Toppings</td></tr>     	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_303" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_303" >+</span>&nbsp;<span id="dtl_303" class="click_popup" data-title="Cilantro Rice" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Cilantro-Rice.png" alt="" width="48"  />&nbsp;Cilantro Rice&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_303" class="odd nofont dtl_303_1" align="center"  style="font-size:0px; color:#fff;" >77.7</td>
+		<td id="totalfat_271_303" align="center" class="td_desc nofont dtl_303_2"  style="font-size:0px; color:#fff;" >2.9</td>
+		<td id="satfat_271_303" class="td_desc odd nofont dtl_303_3" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="sodium_271_303" align="center" class="td_desc nofont dtl_303_4"  style="font-size:0px; color:#fff;" >78.8</td>
+        <td id="carbo_271_303" class="td_desc odd nofont dtl_303_5" align="center"  style="font-size:0px; color:#fff;" >11.7</td>
+        <td id="protein_271_303" align="center" class="td_desc nofont dtl_303_6" style="font-size:0px; color:#fff;" >1.6</td>
+        <td id="difi_271_303" class="td_desc odd nofont dtl_303_7" align="center"  style="font-size:0px; color:#fff;" >0.9</td>
+        <td id="chol_271_303" align="center" class="td_desc nofont dtl_303_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_303" class="td_desc odd nofont dtl_303_9" align="center"  style="font-size:0px; color:#fff;" >1.7</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_294" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_294" >+</span>&nbsp;<span id="dtl_294" class="click_popup" data-title="Mash Potato" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Mash-Potato.png" alt="" width="48"  />&nbsp;Mash Potato&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_294" class="odd nofont dtl_294_1" align="center"  style="font-size:0px; color:#fff;" >76.82</td>
+		<td id="totalfat_271_294" align="center" class="td_desc nofont dtl_294_2"  style="font-size:0px; color:#fff;" >6</td>
+		<td id="satfat_271_294" class="td_desc odd nofont dtl_294_3" align="center"  style="font-size:0px; color:#fff;" >3.73</td>
+        <td id="sodium_271_294" align="center" class="td_desc nofont dtl_294_4"  style="font-size:0px; color:#fff;" >1.18</td>
+        <td id="carbo_271_294" class="td_desc odd nofont dtl_294_5" align="center"  style="font-size:0px; color:#fff;" >5.92</td>
+        <td id="protein_271_294" align="center" class="td_desc nofont dtl_294_6" style="font-size:0px; color:#fff;" >0.71</td>
+        <td id="difi_271_294" class="td_desc odd nofont dtl_294_7" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="chol_271_294" align="center" class="td_desc nofont dtl_294_8" style="font-size:0px; color:#fff;" >14.02</td>
+        <td id="sugars_271_294" class="td_desc odd nofont dtl_294_9" align="center"  style="font-size:0px; color:#fff;" >0.53</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_293" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_293" >+</span>&nbsp;<span id="dtl_293" class="click_popup" data-title="Buttered Corn" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Butter-Corn.png" alt="" width="48"  />&nbsp;Buttered Corn&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_293" class="odd nofont dtl_293_1" align="center"  style="font-size:0px; color:#fff;" >76.2</td>
+		<td id="totalfat_271_293" align="center" class="td_desc nofont dtl_293_2"  style="font-size:0px; color:#fff;" >3.9</td>
+		<td id="satfat_271_293" class="td_desc odd nofont dtl_293_3" align="center"  style="font-size:0px; color:#fff;" >2.3</td>
+        <td id="sodium_271_293" align="center" class="td_desc nofont dtl_293_4"  style="font-size:0px; color:#fff;" >389.8</td>
+        <td id="carbo_271_293" class="td_desc odd nofont dtl_293_5" align="center"  style="font-size:0px; color:#fff;" >10.8</td>
+        <td id="protein_271_293" align="center" class="td_desc nofont dtl_293_6" style="font-size:0px; color:#fff;" >1.6</td>
+        <td id="difi_271_293" class="td_desc odd nofont dtl_293_7" align="center"  style="font-size:0px; color:#fff;" >1.1</td>
+        <td id="chol_271_293" align="center" class="td_desc nofont dtl_293_8" style="font-size:0px; color:#fff;" >9.2</td>
+        <td id="sugars_271_293" class="td_desc odd nofont dtl_293_9" align="center"  style="font-size:0px; color:#fff;" >1.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_292" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_292" >+</span>&nbsp;<span id="dtl_292" class="click_popup" data-title="Black Beans" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Black-Beans.png" alt="" width="48"  />&nbsp;Black Beans&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_292" class="odd nofont dtl_292_1" align="center"  style="font-size:0px; color:#fff;" >72.91</td>
+		<td id="totalfat_271_292" align="center" class="td_desc nofont dtl_292_2"  style="font-size:0px; color:#fff;" >0.91</td>
+		<td id="satfat_271_292" class="td_desc odd nofont dtl_292_3" align="center"  style="font-size:0px; color:#fff;" >0.18</td>
+        <td id="sodium_271_292" align="center" class="td_desc nofont dtl_292_4"  style="font-size:0px; color:#fff;" >31.36</td>
+        <td id="carbo_271_292" class="td_desc odd nofont dtl_292_5" align="center"  style="font-size:0px; color:#fff;" >13.36</td>
+        <td id="protein_271_292" align="center" class="td_desc nofont dtl_292_6" style="font-size:0px; color:#fff;" >4.27</td>
+        <td id="difi_271_292" class="td_desc odd nofont dtl_292_7" align="center"  style="font-size:0px; color:#fff;" >3.64</td>
+        <td id="chol_271_292" align="center" class="td_desc nofont dtl_292_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_292" class="td_desc odd nofont dtl_292_9" align="center"  style="font-size:0px; color:#fff;" >3.18</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_289" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_289" >+</span>&nbsp;<span id="dtl_289" class="click_popup" data-title="Couscous" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Cous-Cous.png" alt="" width="48"  />&nbsp;Couscous&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_289" class="odd nofont dtl_289_1" align="center"  style="font-size:0px; color:#fff;" >68</td>
+		<td id="totalfat_271_289" align="center" class="td_desc nofont dtl_289_2"  style="font-size:0px; color:#fff;" >1.4</td>
+		<td id="satfat_271_289" class="td_desc odd nofont dtl_289_3" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="sodium_271_289" align="center" class="td_desc nofont dtl_289_4"  style="font-size:0px; color:#fff;" >196.3</td>
+        <td id="carbo_271_289" class="td_desc odd nofont dtl_289_5" align="center"  style="font-size:0px; color:#fff;" >11.6</td>
+        <td id="protein_271_289" align="center" class="td_desc nofont dtl_289_6" style="font-size:0px; color:#fff;" >1.9</td>
+        <td id="difi_271_289" class="td_desc odd nofont dtl_289_7" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="chol_271_289" align="center" class="td_desc nofont dtl_289_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_289" class="td_desc odd nofont dtl_289_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_336" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_336" >+</span>&nbsp;<span id="dtl_336" class="click_popup" data-title="Lentils" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Lentils-2.png" alt="" width="48"  />&nbsp;Lentils&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_336" class="odd nofont dtl_336_1" align="center"  style="font-size:0px; color:#fff;" >34.5</td>
+		<td id="totalfat_310_336" align="center" class="td_desc nofont dtl_336_2"  style="font-size:0px; color:#fff;" >0.11</td>
+		<td id="satfat_310_336" class="td_desc odd nofont dtl_336_3" align="center"  style="font-size:0px; color:#fff;" >0.02</td>
+        <td id="sodium_310_336" align="center" class="td_desc nofont dtl_336_4"  style="font-size:0px; color:#fff;" >69.9</td>
+        <td id="carbo_310_336" class="td_desc odd nofont dtl_336_5" align="center"  style="font-size:0px; color:#fff;" >6</td>
+        <td id="protein_310_336" align="center" class="td_desc nofont dtl_336_6" style="font-size:0px; color:#fff;" >2.69</td>
+        <td id="difi_310_336" class="td_desc odd nofont dtl_336_7" align="center"  style="font-size:0px; color:#fff;" >2.37</td>
+        <td id="chol_310_336" align="center" class="td_desc nofont dtl_336_8" style="font-size:0px; color:#fff;" ></td>
+        <td id="sugars_310_336" class="td_desc odd nofont dtl_336_9" align="center"  style="font-size:0px; color:#fff;" >0.54</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_307" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_307" >+</span>&nbsp;<span id="dtl_307" class="click_popup" data-title="Beetroot" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Beetroot.png" alt="" width="48"  />&nbsp;Beetroot&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_307" class="odd nofont dtl_307_1" align="center"  style="font-size:0px; color:#fff;" >9.3</td>
+		<td id="totalfat_310_307" align="center" class="td_desc nofont dtl_307_2"  style="font-size:0px; color:#fff;" >0.04</td>
+		<td id="satfat_310_307" class="td_desc odd nofont dtl_307_3" align="center"  style="font-size:0px; color:#fff;" >0.01</td>
+        <td id="sodium_310_307" align="center" class="td_desc nofont dtl_307_4"  style="font-size:0px; color:#fff;" >58.2</td>
+        <td id="carbo_310_307" class="td_desc odd nofont dtl_307_5" align="center"  style="font-size:0px; color:#fff;" >2.16</td>
+        <td id="protein_310_307" align="center" class="td_desc nofont dtl_307_6" style="font-size:0px; color:#fff;" >0.27</td>
+        <td id="difi_310_307" class="td_desc odd nofont dtl_307_7" align="center"  style="font-size:0px; color:#fff;" >0.51</td>
+        <td id="chol_310_307" align="center" class="td_desc nofont dtl_307_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_307" class="td_desc odd nofont dtl_307_9" align="center"  style="font-size:0px; color:#fff;" >1.65</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_303" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_303" >+</span>&nbsp;<span id="dtl_303" class="click_popup" data-title="Cilantro Rice" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Cilantro-Rice.png" alt="" width="48"  />&nbsp;Cilantro Rice&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_303" class="odd nofont dtl_303_1" align="center"  style="font-size:0px; color:#fff;" >77.7</td>
+		<td id="totalfat_310_303" align="center" class="td_desc nofont dtl_303_2"  style="font-size:0px; color:#fff;" >2.9</td>
+		<td id="satfat_310_303" class="td_desc odd nofont dtl_303_3" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="sodium_310_303" align="center" class="td_desc nofont dtl_303_4"  style="font-size:0px; color:#fff;" >78.8</td>
+        <td id="carbo_310_303" class="td_desc odd nofont dtl_303_5" align="center"  style="font-size:0px; color:#fff;" >11.7</td>
+        <td id="protein_310_303" align="center" class="td_desc nofont dtl_303_6" style="font-size:0px; color:#fff;" >1.6</td>
+        <td id="difi_310_303" class="td_desc odd nofont dtl_303_7" align="center"  style="font-size:0px; color:#fff;" >0.9</td>
+        <td id="chol_310_303" align="center" class="td_desc nofont dtl_303_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_303" class="td_desc odd nofont dtl_303_9" align="center"  style="font-size:0px; color:#fff;" >1.7</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_301" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_301" >+</span>&nbsp;<span id="dtl_301" class="click_popup" data-title="Soba" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Soba.png" alt="" width="48"  />&nbsp;Soba&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_301" class="odd nofont dtl_301_1" align="center"  style="font-size:0px; color:#fff;" >39.6</td>
+		<td id="totalfat_310_301" align="center" class="td_desc nofont dtl_301_2"  style="font-size:0px; color:#fff;" >0.04</td>
+		<td id="satfat_310_301" class="td_desc odd nofont dtl_301_3" align="center"  style="font-size:0px; color:#fff;" >0.01</td>
+        <td id="sodium_310_301" align="center" class="td_desc nofont dtl_301_4"  style="font-size:0px; color:#fff;" >24</td>
+        <td id="carbo_310_301" class="td_desc odd nofont dtl_301_5" align="center"  style="font-size:0px; color:#fff;" >8.58</td>
+        <td id="protein_310_301" align="center" class="td_desc nofont dtl_301_6" style="font-size:0px; color:#fff;" >2.02</td>
+        <td id="difi_310_301" class="td_desc odd nofont dtl_301_7" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+        <td id="chol_310_301" align="center" class="td_desc nofont dtl_301_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_301" class="td_desc odd nofont dtl_301_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_294" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_294" >+</span>&nbsp;<span id="dtl_294" class="click_popup" data-title="Mash Potato" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Mash-Potato.png" alt="" width="48"  />&nbsp;Mash Potato&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_294" class="odd nofont dtl_294_1" align="center"  style="font-size:0px; color:#fff;" >76.82</td>
+		<td id="totalfat_310_294" align="center" class="td_desc nofont dtl_294_2"  style="font-size:0px; color:#fff;" >6</td>
+		<td id="satfat_310_294" class="td_desc odd nofont dtl_294_3" align="center"  style="font-size:0px; color:#fff;" >3.73</td>
+        <td id="sodium_310_294" align="center" class="td_desc nofont dtl_294_4"  style="font-size:0px; color:#fff;" >1.18</td>
+        <td id="carbo_310_294" class="td_desc odd nofont dtl_294_5" align="center"  style="font-size:0px; color:#fff;" >5.92</td>
+        <td id="protein_310_294" align="center" class="td_desc nofont dtl_294_6" style="font-size:0px; color:#fff;" >0.71</td>
+        <td id="difi_310_294" class="td_desc odd nofont dtl_294_7" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="chol_310_294" align="center" class="td_desc nofont dtl_294_8" style="font-size:0px; color:#fff;" >14.02</td>
+        <td id="sugars_310_294" class="td_desc odd nofont dtl_294_9" align="center"  style="font-size:0px; color:#fff;" >0.53</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_293" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_293" >+</span>&nbsp;<span id="dtl_293" class="click_popup" data-title="Buttered Corn" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Butter-Corn.png" alt="" width="48"  />&nbsp;Buttered Corn&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_293" class="odd nofont dtl_293_1" align="center"  style="font-size:0px; color:#fff;" >76.2</td>
+		<td id="totalfat_310_293" align="center" class="td_desc nofont dtl_293_2"  style="font-size:0px; color:#fff;" >3.9</td>
+		<td id="satfat_310_293" class="td_desc odd nofont dtl_293_3" align="center"  style="font-size:0px; color:#fff;" >2.3</td>
+        <td id="sodium_310_293" align="center" class="td_desc nofont dtl_293_4"  style="font-size:0px; color:#fff;" >389.8</td>
+        <td id="carbo_310_293" class="td_desc odd nofont dtl_293_5" align="center"  style="font-size:0px; color:#fff;" >10.8</td>
+        <td id="protein_310_293" align="center" class="td_desc nofont dtl_293_6" style="font-size:0px; color:#fff;" >1.6</td>
+        <td id="difi_310_293" class="td_desc odd nofont dtl_293_7" align="center"  style="font-size:0px; color:#fff;" >1.1</td>
+        <td id="chol_310_293" align="center" class="td_desc nofont dtl_293_8" style="font-size:0px; color:#fff;" >9.2</td>
+        <td id="sugars_310_293" class="td_desc odd nofont dtl_293_9" align="center"  style="font-size:0px; color:#fff;" >1.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_292" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_292" >+</span>&nbsp;<span id="dtl_292" class="click_popup" data-title="Black Beans" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Black-Beans.png" alt="" width="48"  />&nbsp;Black Beans&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_292" class="odd nofont dtl_292_1" align="center"  style="font-size:0px; color:#fff;" >72.91</td>
+		<td id="totalfat_310_292" align="center" class="td_desc nofont dtl_292_2"  style="font-size:0px; color:#fff;" >0.91</td>
+		<td id="satfat_310_292" class="td_desc odd nofont dtl_292_3" align="center"  style="font-size:0px; color:#fff;" >0.18</td>
+        <td id="sodium_310_292" align="center" class="td_desc nofont dtl_292_4"  style="font-size:0px; color:#fff;" >31.36</td>
+        <td id="carbo_310_292" class="td_desc odd nofont dtl_292_5" align="center"  style="font-size:0px; color:#fff;" >13.36</td>
+        <td id="protein_310_292" align="center" class="td_desc nofont dtl_292_6" style="font-size:0px; color:#fff;" >4.27</td>
+        <td id="difi_310_292" class="td_desc odd nofont dtl_292_7" align="center"  style="font-size:0px; color:#fff;" >3.64</td>
+        <td id="chol_310_292" align="center" class="td_desc nofont dtl_292_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_292" class="td_desc odd nofont dtl_292_9" align="center"  style="font-size:0px; color:#fff;" >3.18</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_289" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_289" >+</span>&nbsp;<span id="dtl_289" class="click_popup" data-title="Couscous" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Cous-Cous.png" alt="" width="48"  />&nbsp;Couscous&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_289" class="odd nofont dtl_289_1" align="center"  style="font-size:0px; color:#fff;" >68</td>
+		<td id="totalfat_310_289" align="center" class="td_desc nofont dtl_289_2"  style="font-size:0px; color:#fff;" >1.4</td>
+		<td id="satfat_310_289" class="td_desc odd nofont dtl_289_3" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="sodium_310_289" align="center" class="td_desc nofont dtl_289_4"  style="font-size:0px; color:#fff;" >196.3</td>
+        <td id="carbo_310_289" class="td_desc odd nofont dtl_289_5" align="center"  style="font-size:0px; color:#fff;" >11.6</td>
+        <td id="protein_310_289" align="center" class="td_desc nofont dtl_289_6" style="font-size:0px; color:#fff;" >1.9</td>
+        <td id="difi_310_289" class="td_desc odd nofont dtl_289_7" align="center"  style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="chol_310_289" align="center" class="td_desc nofont dtl_289_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_289" class="td_desc odd nofont dtl_289_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_288" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_288" >+</span>&nbsp;<span id="dtl_288" class="click_popup" data-title="Sweet Potato" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Sweet-Potato.png" alt="" width="48"  />&nbsp;Sweet Potato&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_288" class="odd nofont dtl_288_1" align="center"  style="font-size:0px; color:#fff;" >34.4</td>
+		<td id="totalfat_310_288" align="center" class="td_desc nofont dtl_288_2"  style="font-size:0px; color:#fff;" >0.02</td>
+		<td id="satfat_310_288" class="td_desc odd nofont dtl_288_3" align="center"  style="font-size:0px; color:#fff;" >0.01</td>
+        <td id="sodium_310_288" align="center" class="td_desc nofont dtl_288_4"  style="font-size:0px; color:#fff;" >22</td>
+        <td id="carbo_310_288" class="td_desc odd nofont dtl_288_5" align="center"  style="font-size:0px; color:#fff;" >8.05</td>
+        <td id="protein_310_288" align="center" class="td_desc nofont dtl_288_6" style="font-size:0px; color:#fff;" >0.63</td>
+        <td id="difi_310_288" class="td_desc odd nofont dtl_288_7" align="center"  style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="chol_310_288" align="center" class="td_desc nofont dtl_288_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_288" class="td_desc odd nofont dtl_288_9" align="center"  style="font-size:0px; color:#fff;" >1.68</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_287" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_287" >+</span>&nbsp;<span id="dtl_287" class="click_popup" data-title="Edamame" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/edamame-1.png" alt="" width="48"  />&nbsp;Edamame&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_287" class="odd nofont dtl_287_1" align="center"  style="font-size:0px; color:#fff;" >58.8</td>
+		<td id="totalfat_310_287" align="center" class="td_desc nofont dtl_287_2"  style="font-size:0px; color:#fff;" >2.7</td>
+		<td id="satfat_310_287" class="td_desc odd nofont dtl_287_3" align="center"  style="font-size:0px; color:#fff;" >0.3</td>
+        <td id="sodium_310_287" align="center" class="td_desc nofont dtl_287_4"  style="font-size:0px; color:#fff;" >393.6</td>
+        <td id="carbo_310_287" class="td_desc odd nofont dtl_287_5" align="center"  style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="protein_310_287" align="center" class="td_desc nofont dtl_287_6" style="font-size:0px; color:#fff;" >5.2</td>
+        <td id="difi_310_287" class="td_desc odd nofont dtl_287_7" align="center"  style="font-size:0px; color:#fff;" >1.7</td>
+        <td id="chol_310_287" align="center" class="td_desc nofont dtl_287_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_287" class="td_desc odd nofont dtl_287_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_286" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_286" >+</span>&nbsp;<span id="dtl_286" class="click_popup" data-title="Broccoli" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/broccoli-1.png" alt="" width="48"  />&nbsp;Broccoli&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_286" class="odd nofont dtl_286_1" align="center"  style="font-size:0px; color:#fff;" >21.6</td>
+		<td id="totalfat_310_286" align="center" class="td_desc nofont dtl_286_2"  style="font-size:0px; color:#fff;" >1.08</td>
+		<td id="satfat_310_286" class="td_desc odd nofont dtl_286_3" align="center"  style="font-size:0px; color:#fff;" >0.2</td>
+        <td id="sodium_310_286" align="center" class="td_desc nofont dtl_286_4"  style="font-size:0px; color:#fff;" >115.6</td>
+        <td id="carbo_310_286" class="td_desc odd nofont dtl_286_5" align="center"  style="font-size:0px; color:#fff;" >2.79</td>
+        <td id="protein_310_286" align="center" class="td_desc nofont dtl_286_6" style="font-size:0px; color:#fff;" >0.92</td>
+        <td id="difi_310_286" class="td_desc odd nofont dtl_286_7" align="center"  style="font-size:0px; color:#fff;" >1.28</td>
+        <td id="chol_310_286" align="center" class="td_desc nofont dtl_286_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_286" class="td_desc odd nofont dtl_286_9" align="center"  style="font-size:0px; color:#fff;" >0.54</td>
+    </tr>
+		<tr class="rectr rectr2 rec_309 cls_7 " ><td colspan="10" class="tbl-ttl">Sauces</td></tr>     	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_304" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_304" >+</span>&nbsp;<span id="dtl_304" class="click_popup" data-title="Mayo" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/mayo-2.png" alt="" width="48"  />&nbsp;Mayo&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_304" class="odd nofont dtl_304_1" align="center"  style="font-size:0px; color:#fff;" >120</td>
+		<td id="totalfat_309_304" align="center" class="td_desc nofont dtl_304_2"  style="font-size:0px; color:#fff;" >11.6</td>
+		<td id="satfat_309_304" class="td_desc odd nofont dtl_304_3" align="center"  style="font-size:0px; color:#fff;" >3</td>
+        <td id="sodium_309_304" align="center" class="td_desc nofont dtl_304_4"  style="font-size:0px; color:#fff;" >137.8</td>
+        <td id="carbo_309_304" class="td_desc odd nofont dtl_304_5" align="center"  style="font-size:0px; color:#fff;" >3.6</td>
+        <td id="protein_309_304" align="center" class="td_desc nofont dtl_304_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_309_304" class="td_desc odd nofont dtl_304_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_309_304" align="center" class="td_desc nofont dtl_304_8" style="font-size:0px; color:#fff;" >2.6</td>
+        <td id="sugars_309_304" class="td_desc odd nofont dtl_304_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_300" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_300" >+</span>&nbsp;<span id="dtl_300" class="click_popup" data-title="BBQ" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/BBQ-4.png" alt="BBQ&nbsp;&nbsp;" width="48"  />&nbsp;BBQ&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_300" class="odd nofont dtl_300_1" align="center"  style="font-size:0px; color:#fff;" >15.6</td>
+		<td id="totalfat_309_300" align="center" class="td_desc nofont dtl_300_2"  style="font-size:0px; color:#fff;" >0.36</td>
+		<td id="satfat_309_300" class="td_desc odd nofont dtl_300_3" align="center"  style="font-size:0px; color:#fff;" >0.05</td>
+        <td id="sodium_309_300" align="center" class="td_desc nofont dtl_300_4"  style="font-size:0px; color:#fff;" >163</td>
+        <td id="carbo_309_300" class="td_desc odd nofont dtl_300_5" align="center"  style="font-size:0px; color:#fff;" >2.56</td>
+        <td id="protein_309_300" align="center" class="td_desc nofont dtl_300_6" style="font-size:0px; color:#fff;" >0.36</td>
+        <td id="difi_309_300" class="td_desc odd nofont dtl_300_7" align="center"  style="font-size:0px; color:#fff;" >0.24</td>
+        <td id="chol_309_300" align="center" class="td_desc nofont dtl_300_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_300" class="td_desc odd nofont dtl_300_9" align="center"  style="font-size:0px; color:#fff;" >0.78</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_299" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_299" >+</span>&nbsp;<span id="dtl_299" class="click_popup" data-title="Mayo Cucumber" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Mayo-Cucumber-1.png" alt="" width="48"  />&nbsp;Mayo Cucumber&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_299" class="odd nofont dtl_299_1" align="center"  style="font-size:0px; color:#fff;" >72.78</td>
+		<td id="totalfat_309_299" align="center" class="td_desc nofont dtl_299_2"  style="font-size:0px; color:#fff;" >7.86</td>
+		<td id="satfat_309_299" class="td_desc odd nofont dtl_299_3" align="center"  style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="sodium_309_299" align="center" class="td_desc nofont dtl_299_4"  style="font-size:0px; color:#fff;" >56.65</td>
+        <td id="carbo_309_299" class="td_desc odd nofont dtl_299_5" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="protein_309_299" align="center" class="td_desc nofont dtl_299_6" style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="difi_309_299" class="td_desc odd nofont dtl_299_7" align="center"  style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="chol_309_299" align="center" class="td_desc nofont dtl_299_8" style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="sugars_309_299" class="td_desc odd nofont dtl_299_9" align="center"  style="font-size:0px; color:#fff;" >0.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_298" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_298" >+</span>&nbsp;<span id="dtl_298" class="click_popup" data-title="Sweet Thai Chilli" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Sweet-Thai-Chilli-1.png" alt="" width="48"  />&nbsp;Sweet Thai Chilli&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_298" class="odd nofont dtl_298_1" align="center"  style="font-size:0px; color:#fff;" >30</td>
+		<td id="totalfat_309_298" align="center" class="td_desc nofont dtl_298_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_309_298" class="td_desc odd nofont dtl_298_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_309_298" align="center" class="td_desc nofont dtl_298_4"  style="font-size:0px; color:#fff;" >205</td>
+        <td id="carbo_309_298" class="td_desc odd nofont dtl_298_5" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="protein_309_298" align="center" class="td_desc nofont dtl_298_6" style="font-size:0px; color:#fff;" >0</td>
+        <td id="difi_309_298" class="td_desc odd nofont dtl_298_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_309_298" align="center" class="td_desc nofont dtl_298_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_298" class="td_desc odd nofont dtl_298_9" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_297" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_297" >+</span>&nbsp;<span id="dtl_297" class="click_popup" data-title="Habanero" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Habanero-1.png" alt="" width="48"  />&nbsp;Habanero&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_297" class="odd nofont dtl_297_1" align="center"  style="font-size:0px; color:#fff;" >14.8</td>
+		<td id="totalfat_309_297" align="center" class="td_desc nofont dtl_297_2"  style="font-size:0px; color:#fff;" >0.08</td>
+		<td id="satfat_309_297" class="td_desc odd nofont dtl_297_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_309_297" align="center" class="td_desc nofont dtl_297_4"  style="font-size:0px; color:#fff;" >317.12</td>
+        <td id="carbo_309_297" class="td_desc odd nofont dtl_297_5" align="center"  style="font-size:0px; color:#fff;" >3.28</td>
+        <td id="protein_309_297" align="center" class="td_desc nofont dtl_297_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_309_297" class="td_desc odd nofont dtl_297_7" align="center"  style="font-size:0px; color:#fff;" >0.32</td>
+        <td id="chol_309_297" align="center" class="td_desc nofont dtl_297_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_297" class="td_desc odd nofont dtl_297_9" align="center"  style="font-size:0px; color:#fff;" >1.44</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_304" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_304" >+</span>&nbsp;<span id="dtl_304" class="click_popup" data-title="Mayo" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/mayo-2.png" alt="" width="48"  />&nbsp;Mayo&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_304" class="odd nofont dtl_304_1" align="center"  style="font-size:0px; color:#fff;" >120</td>
+		<td id="totalfat_271_304" align="center" class="td_desc nofont dtl_304_2"  style="font-size:0px; color:#fff;" >11.6</td>
+		<td id="satfat_271_304" class="td_desc odd nofont dtl_304_3" align="center"  style="font-size:0px; color:#fff;" >3</td>
+        <td id="sodium_271_304" align="center" class="td_desc nofont dtl_304_4"  style="font-size:0px; color:#fff;" >137.8</td>
+        <td id="carbo_271_304" class="td_desc odd nofont dtl_304_5" align="center"  style="font-size:0px; color:#fff;" >3.6</td>
+        <td id="protein_271_304" align="center" class="td_desc nofont dtl_304_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_271_304" class="td_desc odd nofont dtl_304_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_271_304" align="center" class="td_desc nofont dtl_304_8" style="font-size:0px; color:#fff;" >2.6</td>
+        <td id="sugars_271_304" class="td_desc odd nofont dtl_304_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_300" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_300" >+</span>&nbsp;<span id="dtl_300" class="click_popup" data-title="BBQ" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/BBQ-4.png" alt="BBQ&nbsp;&nbsp;" width="48"  />&nbsp;BBQ&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_300" class="odd nofont dtl_300_1" align="center"  style="font-size:0px; color:#fff;" >15.6</td>
+		<td id="totalfat_271_300" align="center" class="td_desc nofont dtl_300_2"  style="font-size:0px; color:#fff;" >0.36</td>
+		<td id="satfat_271_300" class="td_desc odd nofont dtl_300_3" align="center"  style="font-size:0px; color:#fff;" >0.05</td>
+        <td id="sodium_271_300" align="center" class="td_desc nofont dtl_300_4"  style="font-size:0px; color:#fff;" >163</td>
+        <td id="carbo_271_300" class="td_desc odd nofont dtl_300_5" align="center"  style="font-size:0px; color:#fff;" >2.56</td>
+        <td id="protein_271_300" align="center" class="td_desc nofont dtl_300_6" style="font-size:0px; color:#fff;" >0.36</td>
+        <td id="difi_271_300" class="td_desc odd nofont dtl_300_7" align="center"  style="font-size:0px; color:#fff;" >0.24</td>
+        <td id="chol_271_300" align="center" class="td_desc nofont dtl_300_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_300" class="td_desc odd nofont dtl_300_9" align="center"  style="font-size:0px; color:#fff;" >0.78</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_299" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_299" >+</span>&nbsp;<span id="dtl_299" class="click_popup" data-title="Mayo Cucumber" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Mayo-Cucumber-1.png" alt="" width="48"  />&nbsp;Mayo Cucumber&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_299" class="odd nofont dtl_299_1" align="center"  style="font-size:0px; color:#fff;" >72.78</td>
+		<td id="totalfat_271_299" align="center" class="td_desc nofont dtl_299_2"  style="font-size:0px; color:#fff;" >7.86</td>
+		<td id="satfat_271_299" class="td_desc odd nofont dtl_299_3" align="center"  style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="sodium_271_299" align="center" class="td_desc nofont dtl_299_4"  style="font-size:0px; color:#fff;" >56.65</td>
+        <td id="carbo_271_299" class="td_desc odd nofont dtl_299_5" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="protein_271_299" align="center" class="td_desc nofont dtl_299_6" style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="difi_271_299" class="td_desc odd nofont dtl_299_7" align="center"  style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="chol_271_299" align="center" class="td_desc nofont dtl_299_8" style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="sugars_271_299" class="td_desc odd nofont dtl_299_9" align="center"  style="font-size:0px; color:#fff;" >0.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_298" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_298" >+</span>&nbsp;<span id="dtl_298" class="click_popup" data-title="Sweet Thai Chilli" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Sweet-Thai-Chilli-1.png" alt="" width="48"  />&nbsp;Sweet Thai Chilli&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_298" class="odd nofont dtl_298_1" align="center"  style="font-size:0px; color:#fff;" >30</td>
+		<td id="totalfat_271_298" align="center" class="td_desc nofont dtl_298_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_271_298" class="td_desc odd nofont dtl_298_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_271_298" align="center" class="td_desc nofont dtl_298_4"  style="font-size:0px; color:#fff;" >205</td>
+        <td id="carbo_271_298" class="td_desc odd nofont dtl_298_5" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="protein_271_298" align="center" class="td_desc nofont dtl_298_6" style="font-size:0px; color:#fff;" >0</td>
+        <td id="difi_271_298" class="td_desc odd nofont dtl_298_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_271_298" align="center" class="td_desc nofont dtl_298_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_298" class="td_desc odd nofont dtl_298_9" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_297" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_297" >+</span>&nbsp;<span id="dtl_297" class="click_popup" data-title="Habanero" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Habanero-1.png" alt="" width="48"  />&nbsp;Habanero&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_297" class="odd nofont dtl_297_1" align="center"  style="font-size:0px; color:#fff;" >14.8</td>
+		<td id="totalfat_271_297" align="center" class="td_desc nofont dtl_297_2"  style="font-size:0px; color:#fff;" >0.08</td>
+		<td id="satfat_271_297" class="td_desc odd nofont dtl_297_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_271_297" align="center" class="td_desc nofont dtl_297_4"  style="font-size:0px; color:#fff;" >317.12</td>
+        <td id="carbo_271_297" class="td_desc odd nofont dtl_297_5" align="center"  style="font-size:0px; color:#fff;" >3.28</td>
+        <td id="protein_271_297" align="center" class="td_desc nofont dtl_297_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_271_297" class="td_desc odd nofont dtl_297_7" align="center"  style="font-size:0px; color:#fff;" >0.32</td>
+        <td id="chol_271_297" align="center" class="td_desc nofont dtl_297_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_297" class="td_desc odd nofont dtl_297_9" align="center"  style="font-size:0px; color:#fff;" >1.44</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_334" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_334" >+</span>&nbsp;<span id="dtl_334" class="click_popup" data-title="Honey Mustard" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/honey-mustard.png" alt="" width="48"  />&nbsp;Honey Mustard&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_334" class="odd nofont dtl_334_1" align="center"  style="font-size:0px; color:#fff;" >113.6</td>
+		<td id="totalfat_310_334" align="center" class="td_desc nofont dtl_334_2"  style="font-size:0px; color:#fff;" >10.5</td>
+		<td id="satfat_310_334" class="td_desc odd nofont dtl_334_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_334" align="center" class="td_desc nofont dtl_334_4"  style="font-size:0px; color:#fff;" >135.4</td>
+        <td id="carbo_310_334" class="td_desc odd nofont dtl_334_5" align="center"  style="font-size:0px; color:#fff;" >5.12</td>
+        <td id="protein_310_334" align="center" class="td_desc nofont dtl_334_6" style="font-size:0px; color:#fff;" >0.02</td>
+        <td id="difi_310_334" class="td_desc odd nofont dtl_334_7" align="center"  style="font-size:0px; color:#fff;" >1.01</td>
+        <td id="chol_310_334" align="center" class="td_desc nofont dtl_334_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_334" class="td_desc odd nofont dtl_334_9" align="center"  style="font-size:0px; color:#fff;" >4.11</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_335" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_335" >+</span>&nbsp;<span id="dtl_335" class="click_popup" data-title="Roasted Sesame" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/hummus-1.png" alt="" width="48"  />&nbsp;Roasted Sesame&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_335" class="odd nofont dtl_335_1" align="center"  style="font-size:0px; color:#fff;" >84</td>
+		<td id="totalfat_310_335" align="center" class="td_desc nofont dtl_335_2"  style="font-size:0px; color:#fff;" >7.34</td>
+		<td id="satfat_310_335" class="td_desc odd nofont dtl_335_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_335" align="center" class="td_desc nofont dtl_335_4"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="carbo_310_335" class="td_desc odd nofont dtl_335_5" align="center"  style="font-size:0px; color:#fff;" >3.78</td>
+        <td id="protein_310_335" align="center" class="td_desc nofont dtl_335_6" style="font-size:0px; color:#fff;" >0.11</td>
+        <td id="difi_310_335" class="td_desc odd nofont dtl_335_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_310_335" align="center" class="td_desc nofont dtl_335_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_335" class="td_desc odd nofont dtl_335_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_304" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_304" >+</span>&nbsp;<span id="dtl_304" class="click_popup" data-title="Mayo" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/mayo-2.png" alt="" width="48"  />&nbsp;Mayo&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_304" class="odd nofont dtl_304_1" align="center"  style="font-size:0px; color:#fff;" >120</td>
+		<td id="totalfat_310_304" align="center" class="td_desc nofont dtl_304_2"  style="font-size:0px; color:#fff;" >11.6</td>
+		<td id="satfat_310_304" class="td_desc odd nofont dtl_304_3" align="center"  style="font-size:0px; color:#fff;" >3</td>
+        <td id="sodium_310_304" align="center" class="td_desc nofont dtl_304_4"  style="font-size:0px; color:#fff;" >137.8</td>
+        <td id="carbo_310_304" class="td_desc odd nofont dtl_304_5" align="center"  style="font-size:0px; color:#fff;" >3.6</td>
+        <td id="protein_310_304" align="center" class="td_desc nofont dtl_304_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_310_304" class="td_desc odd nofont dtl_304_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_310_304" align="center" class="td_desc nofont dtl_304_8" style="font-size:0px; color:#fff;" >2.6</td>
+        <td id="sugars_310_304" class="td_desc odd nofont dtl_304_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_300" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_300" >+</span>&nbsp;<span id="dtl_300" class="click_popup" data-title="BBQ" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/BBQ-4.png" alt="BBQ&nbsp;&nbsp;" width="48"  />&nbsp;BBQ&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_300" class="odd nofont dtl_300_1" align="center"  style="font-size:0px; color:#fff;" >15.6</td>
+		<td id="totalfat_310_300" align="center" class="td_desc nofont dtl_300_2"  style="font-size:0px; color:#fff;" >0.36</td>
+		<td id="satfat_310_300" class="td_desc odd nofont dtl_300_3" align="center"  style="font-size:0px; color:#fff;" >0.05</td>
+        <td id="sodium_310_300" align="center" class="td_desc nofont dtl_300_4"  style="font-size:0px; color:#fff;" >163</td>
+        <td id="carbo_310_300" class="td_desc odd nofont dtl_300_5" align="center"  style="font-size:0px; color:#fff;" >2.56</td>
+        <td id="protein_310_300" align="center" class="td_desc nofont dtl_300_6" style="font-size:0px; color:#fff;" >0.36</td>
+        <td id="difi_310_300" class="td_desc odd nofont dtl_300_7" align="center"  style="font-size:0px; color:#fff;" >0.24</td>
+        <td id="chol_310_300" align="center" class="td_desc nofont dtl_300_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_300" class="td_desc odd nofont dtl_300_9" align="center"  style="font-size:0px; color:#fff;" >0.78</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_299" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_299" >+</span>&nbsp;<span id="dtl_299" class="click_popup" data-title="Mayo Cucumber" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Mayo-Cucumber-1.png" alt="" width="48"  />&nbsp;Mayo Cucumber&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_299" class="odd nofont dtl_299_1" align="center"  style="font-size:0px; color:#fff;" >72.78</td>
+		<td id="totalfat_310_299" align="center" class="td_desc nofont dtl_299_2"  style="font-size:0px; color:#fff;" >7.86</td>
+		<td id="satfat_310_299" class="td_desc odd nofont dtl_299_3" align="center"  style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="sodium_310_299" align="center" class="td_desc nofont dtl_299_4"  style="font-size:0px; color:#fff;" >56.65</td>
+        <td id="carbo_310_299" class="td_desc odd nofont dtl_299_5" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="protein_310_299" align="center" class="td_desc nofont dtl_299_6" style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="difi_310_299" class="td_desc odd nofont dtl_299_7" align="center"  style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="chol_310_299" align="center" class="td_desc nofont dtl_299_8" style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="sugars_310_299" class="td_desc odd nofont dtl_299_9" align="center"  style="font-size:0px; color:#fff;" >0.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_298" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_298" >+</span>&nbsp;<span id="dtl_298" class="click_popup" data-title="Sweet Thai Chilli" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Sweet-Thai-Chilli-1.png" alt="" width="48"  />&nbsp;Sweet Thai Chilli&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_298" class="odd nofont dtl_298_1" align="center"  style="font-size:0px; color:#fff;" >30</td>
+		<td id="totalfat_310_298" align="center" class="td_desc nofont dtl_298_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_310_298" class="td_desc odd nofont dtl_298_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_298" align="center" class="td_desc nofont dtl_298_4"  style="font-size:0px; color:#fff;" >205</td>
+        <td id="carbo_310_298" class="td_desc odd nofont dtl_298_5" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="protein_310_298" align="center" class="td_desc nofont dtl_298_6" style="font-size:0px; color:#fff;" >0</td>
+        <td id="difi_310_298" class="td_desc odd nofont dtl_298_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_310_298" align="center" class="td_desc nofont dtl_298_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_298" class="td_desc odd nofont dtl_298_9" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_297" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_297" >+</span>&nbsp;<span id="dtl_297" class="click_popup" data-title="Habanero" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Habanero-1.png" alt="" width="48"  />&nbsp;Habanero&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_297" class="odd nofont dtl_297_1" align="center"  style="font-size:0px; color:#fff;" >14.8</td>
+		<td id="totalfat_310_297" align="center" class="td_desc nofont dtl_297_2"  style="font-size:0px; color:#fff;" >0.08</td>
+		<td id="satfat_310_297" class="td_desc odd nofont dtl_297_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_310_297" align="center" class="td_desc nofont dtl_297_4"  style="font-size:0px; color:#fff;" >317.12</td>
+        <td id="carbo_310_297" class="td_desc odd nofont dtl_297_5" align="center"  style="font-size:0px; color:#fff;" >3.28</td>
+        <td id="protein_310_297" align="center" class="td_desc nofont dtl_297_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_310_297" class="td_desc odd nofont dtl_297_7" align="center"  style="font-size:0px; color:#fff;" >0.32</td>
+        <td id="chol_310_297" align="center" class="td_desc nofont dtl_297_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_297" class="td_desc odd nofont dtl_297_9" align="center"  style="font-size:0px; color:#fff;" >1.44</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_304" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_304" >+</span>&nbsp;<span id="dtl_304" class="click_popup" data-title="Mayo" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/mayo-2.png" alt="" width="48"  />&nbsp;Mayo&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_304" class="odd nofont dtl_304_1" align="center"  style="font-size:0px; color:#fff;" >120</td>
+		<td id="totalfat_311_304" align="center" class="td_desc nofont dtl_304_2"  style="font-size:0px; color:#fff;" >11.6</td>
+		<td id="satfat_311_304" class="td_desc odd nofont dtl_304_3" align="center"  style="font-size:0px; color:#fff;" >3</td>
+        <td id="sodium_311_304" align="center" class="td_desc nofont dtl_304_4"  style="font-size:0px; color:#fff;" >137.8</td>
+        <td id="carbo_311_304" class="td_desc odd nofont dtl_304_5" align="center"  style="font-size:0px; color:#fff;" >3.6</td>
+        <td id="protein_311_304" align="center" class="td_desc nofont dtl_304_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_311_304" class="td_desc odd nofont dtl_304_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_311_304" align="center" class="td_desc nofont dtl_304_8" style="font-size:0px; color:#fff;" >2.6</td>
+        <td id="sugars_311_304" class="td_desc odd nofont dtl_304_9" align="center"  style="font-size:0px; color:#fff;" >0</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_300" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_300" >+</span>&nbsp;<span id="dtl_300" class="click_popup" data-title="BBQ" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/BBQ-4.png" alt="BBQ&nbsp;&nbsp;" width="48"  />&nbsp;BBQ&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_300" class="odd nofont dtl_300_1" align="center"  style="font-size:0px; color:#fff;" >15.6</td>
+		<td id="totalfat_311_300" align="center" class="td_desc nofont dtl_300_2"  style="font-size:0px; color:#fff;" >0.36</td>
+		<td id="satfat_311_300" class="td_desc odd nofont dtl_300_3" align="center"  style="font-size:0px; color:#fff;" >0.05</td>
+        <td id="sodium_311_300" align="center" class="td_desc nofont dtl_300_4"  style="font-size:0px; color:#fff;" >163</td>
+        <td id="carbo_311_300" class="td_desc odd nofont dtl_300_5" align="center"  style="font-size:0px; color:#fff;" >2.56</td>
+        <td id="protein_311_300" align="center" class="td_desc nofont dtl_300_6" style="font-size:0px; color:#fff;" >0.36</td>
+        <td id="difi_311_300" class="td_desc odd nofont dtl_300_7" align="center"  style="font-size:0px; color:#fff;" >0.24</td>
+        <td id="chol_311_300" align="center" class="td_desc nofont dtl_300_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_311_300" class="td_desc odd nofont dtl_300_9" align="center"  style="font-size:0px; color:#fff;" >0.78</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_299" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_299" >+</span>&nbsp;<span id="dtl_299" class="click_popup" data-title="Mayo Cucumber" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Mayo-Cucumber-1.png" alt="" width="48"  />&nbsp;Mayo Cucumber&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_299" class="odd nofont dtl_299_1" align="center"  style="font-size:0px; color:#fff;" >72.78</td>
+		<td id="totalfat_311_299" align="center" class="td_desc nofont dtl_299_2"  style="font-size:0px; color:#fff;" >7.86</td>
+		<td id="satfat_311_299" class="td_desc odd nofont dtl_299_3" align="center"  style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="sodium_311_299" align="center" class="td_desc nofont dtl_299_4"  style="font-size:0px; color:#fff;" >56.65</td>
+        <td id="carbo_311_299" class="td_desc odd nofont dtl_299_5" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="protein_311_299" align="center" class="td_desc nofont dtl_299_6" style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="difi_311_299" class="td_desc odd nofont dtl_299_7" align="center"  style="font-size:0px; color:#fff;" >0.1</td>
+        <td id="chol_311_299" align="center" class="td_desc nofont dtl_299_8" style="font-size:0px; color:#fff;" >3.7</td>
+        <td id="sugars_311_299" class="td_desc odd nofont dtl_299_9" align="center"  style="font-size:0px; color:#fff;" >0.3</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_298" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_298" >+</span>&nbsp;<span id="dtl_298" class="click_popup" data-title="Sweet Thai Chilli" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Sweet-Thai-Chilli-1.png" alt="" width="48"  />&nbsp;Sweet Thai Chilli&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_298" class="odd nofont dtl_298_1" align="center"  style="font-size:0px; color:#fff;" >30</td>
+		<td id="totalfat_311_298" align="center" class="td_desc nofont dtl_298_2"  style="font-size:0px; color:#fff;" >0</td>
+		<td id="satfat_311_298" class="td_desc odd nofont dtl_298_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_311_298" align="center" class="td_desc nofont dtl_298_4"  style="font-size:0px; color:#fff;" >205</td>
+        <td id="carbo_311_298" class="td_desc odd nofont dtl_298_5" align="center"  style="font-size:0px; color:#fff;" >0.7</td>
+        <td id="protein_311_298" align="center" class="td_desc nofont dtl_298_6" style="font-size:0px; color:#fff;" >0</td>
+        <td id="difi_311_298" class="td_desc odd nofont dtl_298_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_311_298" align="center" class="td_desc nofont dtl_298_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_311_298" class="td_desc odd nofont dtl_298_9" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_297" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_297" >+</span>&nbsp;<span id="dtl_297" class="click_popup" data-title="Habanero" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/Habanero-1.png" alt="" width="48"  />&nbsp;Habanero&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_297" class="odd nofont dtl_297_1" align="center"  style="font-size:0px; color:#fff;" >14.8</td>
+		<td id="totalfat_311_297" align="center" class="td_desc nofont dtl_297_2"  style="font-size:0px; color:#fff;" >0.08</td>
+		<td id="satfat_311_297" class="td_desc odd nofont dtl_297_3" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="sodium_311_297" align="center" class="td_desc nofont dtl_297_4"  style="font-size:0px; color:#fff;" >317.12</td>
+        <td id="carbo_311_297" class="td_desc odd nofont dtl_297_5" align="center"  style="font-size:0px; color:#fff;" >3.28</td>
+        <td id="protein_311_297" align="center" class="td_desc nofont dtl_297_6" style="font-size:0px; color:#fff;" >0.4</td>
+        <td id="difi_311_297" class="td_desc odd nofont dtl_297_7" align="center"  style="font-size:0px; color:#fff;" >0.32</td>
+        <td id="chol_311_297" align="center" class="td_desc nofont dtl_297_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_311_297" class="td_desc odd nofont dtl_297_9" align="center"  style="font-size:0px; color:#fff;" >1.44</td>
+    </tr>
+		<tr class="rectr rectr2 rec_309 cls_8 " ><td colspan="10" class="tbl-ttl">Additional Toppings</td></tr>     	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_296" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_296" >+</span>&nbsp;<span id="dtl_296" class="click_popup" data-title="Guacamole" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/guacamole-1.png" alt="" width="48"  />&nbsp;Guacamole&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_296" class="odd nofont dtl_296_1" align="center"  style="font-size:0px; color:#fff;" >89.4</td>
+		<td id="totalfat_309_296" align="center" class="td_desc nofont dtl_296_2"  style="font-size:0px; color:#fff;" >7.9</td>
+		<td id="satfat_309_296" class="td_desc odd nofont dtl_296_3" align="center"  style="font-size:0px; color:#fff;" >1.1</td>
+        <td id="sodium_309_296" align="center" class="td_desc nofont dtl_296_4"  style="font-size:0px; color:#fff;" >199.3</td>
+        <td id="carbo_309_296" class="td_desc odd nofont dtl_296_5" align="center"  style="font-size:0px; color:#fff;" >5.4</td>
+        <td id="protein_309_296" align="center" class="td_desc nofont dtl_296_6" style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="difi_309_296" class="td_desc odd nofont dtl_296_7" align="center"  style="font-size:0px; color:#fff;" >3.8</td>
+        <td id="chol_309_296" align="center" class="td_desc nofont dtl_296_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_296" class="td_desc odd nofont dtl_296_9" align="center"  style="font-size:0px; color:#fff;" >0.8</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_295" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_295" >+</span>&nbsp;<span id="dtl_295" class="click_popup" data-title="Cheese" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/cheese-2.png" alt="Cheese" width="48"  />&nbsp;Cheese&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_295" class="odd nofont dtl_295_1" align="center"  style="font-size:0px; color:#fff;" >67</td>
+		<td id="totalfat_309_295" align="center" class="td_desc nofont dtl_295_2"  style="font-size:0px; color:#fff;" >5.2</td>
+		<td id="satfat_309_295" class="td_desc odd nofont dtl_295_3" align="center"  style="font-size:0px; color:#fff;" >3.3</td>
+        <td id="sodium_309_295" align="center" class="td_desc nofont dtl_295_4"  style="font-size:0px; color:#fff;" >148.1</td>
+        <td id="carbo_309_295" class="td_desc odd nofont dtl_295_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_309_295" align="center" class="td_desc nofont dtl_295_6" style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="difi_309_295" class="td_desc odd nofont dtl_295_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_309_295" align="center" class="td_desc nofont dtl_295_8" style="font-size:0px; color:#fff;" >16.6</td>
+        <td id="sugars_309_295" class="td_desc odd nofont dtl_295_9" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_309 rec_td_309_280" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_309_280" >+</span>&nbsp;<span id="dtl_280" class="click_popup" data-title="Hummus" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/hummus-1.png" alt="" width="48"  />&nbsp;Hummus&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_309_280" class="odd nofont dtl_280_1" align="center"  style="font-size:0px; color:#fff;" >88.5</td>
+		<td id="totalfat_309_280" align="center" class="td_desc nofont dtl_280_2"  style="font-size:0px; color:#fff;" >4.25</td>
+		<td id="satfat_309_280" class="td_desc odd nofont dtl_280_3" align="center"  style="font-size:0px; color:#fff;" >0.63</td>
+        <td id="sodium_309_280" align="center" class="td_desc nofont dtl_280_4"  style="font-size:0px; color:#fff;" >121</td>
+        <td id="carbo_309_280" class="td_desc odd nofont dtl_280_5" align="center"  style="font-size:0px; color:#fff;" >10</td>
+        <td id="protein_309_280" align="center" class="td_desc nofont dtl_280_6" style="font-size:0px; color:#fff;" >2.38</td>
+        <td id="difi_309_280" class="td_desc odd nofont dtl_280_7" align="center"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="chol_309_280" align="center" class="td_desc nofont dtl_280_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_309_280" class="td_desc odd nofont dtl_280_9" align="center"  style="font-size:0px; color:#fff;" >0.13</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_296" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_296" >+</span>&nbsp;<span id="dtl_296" class="click_popup" data-title="Guacamole" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/guacamole-1.png" alt="" width="48"  />&nbsp;Guacamole&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_296" class="odd nofont dtl_296_1" align="center"  style="font-size:0px; color:#fff;" >89.4</td>
+		<td id="totalfat_271_296" align="center" class="td_desc nofont dtl_296_2"  style="font-size:0px; color:#fff;" >7.9</td>
+		<td id="satfat_271_296" class="td_desc odd nofont dtl_296_3" align="center"  style="font-size:0px; color:#fff;" >1.1</td>
+        <td id="sodium_271_296" align="center" class="td_desc nofont dtl_296_4"  style="font-size:0px; color:#fff;" >199.3</td>
+        <td id="carbo_271_296" class="td_desc odd nofont dtl_296_5" align="center"  style="font-size:0px; color:#fff;" >5.4</td>
+        <td id="protein_271_296" align="center" class="td_desc nofont dtl_296_6" style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="difi_271_296" class="td_desc odd nofont dtl_296_7" align="center"  style="font-size:0px; color:#fff;" >3.8</td>
+        <td id="chol_271_296" align="center" class="td_desc nofont dtl_296_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_296" class="td_desc odd nofont dtl_296_9" align="center"  style="font-size:0px; color:#fff;" >0.8</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_295" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_295" >+</span>&nbsp;<span id="dtl_295" class="click_popup" data-title="Cheese" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/cheese-2.png" alt="Cheese" width="48"  />&nbsp;Cheese&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_295" class="odd nofont dtl_295_1" align="center"  style="font-size:0px; color:#fff;" >67</td>
+		<td id="totalfat_271_295" align="center" class="td_desc nofont dtl_295_2"  style="font-size:0px; color:#fff;" >5.2</td>
+		<td id="satfat_271_295" class="td_desc odd nofont dtl_295_3" align="center"  style="font-size:0px; color:#fff;" >3.3</td>
+        <td id="sodium_271_295" align="center" class="td_desc nofont dtl_295_4"  style="font-size:0px; color:#fff;" >148.1</td>
+        <td id="carbo_271_295" class="td_desc odd nofont dtl_295_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_271_295" align="center" class="td_desc nofont dtl_295_6" style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="difi_271_295" class="td_desc odd nofont dtl_295_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_271_295" align="center" class="td_desc nofont dtl_295_8" style="font-size:0px; color:#fff;" >16.6</td>
+        <td id="sugars_271_295" class="td_desc odd nofont dtl_295_9" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_271 rec_td_271_280" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_271_280" >+</span>&nbsp;<span id="dtl_280" class="click_popup" data-title="Hummus" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/hummus-1.png" alt="" width="48"  />&nbsp;Hummus&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_271_280" class="odd nofont dtl_280_1" align="center"  style="font-size:0px; color:#fff;" >88.5</td>
+		<td id="totalfat_271_280" align="center" class="td_desc nofont dtl_280_2"  style="font-size:0px; color:#fff;" >4.25</td>
+		<td id="satfat_271_280" class="td_desc odd nofont dtl_280_3" align="center"  style="font-size:0px; color:#fff;" >0.63</td>
+        <td id="sodium_271_280" align="center" class="td_desc nofont dtl_280_4"  style="font-size:0px; color:#fff;" >121</td>
+        <td id="carbo_271_280" class="td_desc odd nofont dtl_280_5" align="center"  style="font-size:0px; color:#fff;" >10</td>
+        <td id="protein_271_280" align="center" class="td_desc nofont dtl_280_6" style="font-size:0px; color:#fff;" >2.38</td>
+        <td id="difi_271_280" class="td_desc odd nofont dtl_280_7" align="center"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="chol_271_280" align="center" class="td_desc nofont dtl_280_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_271_280" class="td_desc odd nofont dtl_280_9" align="center"  style="font-size:0px; color:#fff;" >0.13</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_296" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_296" >+</span>&nbsp;<span id="dtl_296" class="click_popup" data-title="Guacamole" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/guacamole-1.png" alt="" width="48"  />&nbsp;Guacamole&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_296" class="odd nofont dtl_296_1" align="center"  style="font-size:0px; color:#fff;" >89.4</td>
+		<td id="totalfat_310_296" align="center" class="td_desc nofont dtl_296_2"  style="font-size:0px; color:#fff;" >7.9</td>
+		<td id="satfat_310_296" class="td_desc odd nofont dtl_296_3" align="center"  style="font-size:0px; color:#fff;" >1.1</td>
+        <td id="sodium_310_296" align="center" class="td_desc nofont dtl_296_4"  style="font-size:0px; color:#fff;" >199.3</td>
+        <td id="carbo_310_296" class="td_desc odd nofont dtl_296_5" align="center"  style="font-size:0px; color:#fff;" >5.4</td>
+        <td id="protein_310_296" align="center" class="td_desc nofont dtl_296_6" style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="difi_310_296" class="td_desc odd nofont dtl_296_7" align="center"  style="font-size:0px; color:#fff;" >3.8</td>
+        <td id="chol_310_296" align="center" class="td_desc nofont dtl_296_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_296" class="td_desc odd nofont dtl_296_9" align="center"  style="font-size:0px; color:#fff;" >0.8</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_295" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_295" >+</span>&nbsp;<span id="dtl_295" class="click_popup" data-title="Cheese" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/cheese-2.png" alt="Cheese" width="48"  />&nbsp;Cheese&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_295" class="odd nofont dtl_295_1" align="center"  style="font-size:0px; color:#fff;" >67</td>
+		<td id="totalfat_310_295" align="center" class="td_desc nofont dtl_295_2"  style="font-size:0px; color:#fff;" >5.2</td>
+		<td id="satfat_310_295" class="td_desc odd nofont dtl_295_3" align="center"  style="font-size:0px; color:#fff;" >3.3</td>
+        <td id="sodium_310_295" align="center" class="td_desc nofont dtl_295_4"  style="font-size:0px; color:#fff;" >148.1</td>
+        <td id="carbo_310_295" class="td_desc odd nofont dtl_295_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_310_295" align="center" class="td_desc nofont dtl_295_6" style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="difi_310_295" class="td_desc odd nofont dtl_295_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_310_295" align="center" class="td_desc nofont dtl_295_8" style="font-size:0px; color:#fff;" >16.6</td>
+        <td id="sugars_310_295" class="td_desc odd nofont dtl_295_9" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_310 rec_td_310_280" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_310_280" >+</span>&nbsp;<span id="dtl_280" class="click_popup" data-title="Hummus" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/hummus-1.png" alt="" width="48"  />&nbsp;Hummus&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_310_280" class="odd nofont dtl_280_1" align="center"  style="font-size:0px; color:#fff;" >88.5</td>
+		<td id="totalfat_310_280" align="center" class="td_desc nofont dtl_280_2"  style="font-size:0px; color:#fff;" >4.25</td>
+		<td id="satfat_310_280" class="td_desc odd nofont dtl_280_3" align="center"  style="font-size:0px; color:#fff;" >0.63</td>
+        <td id="sodium_310_280" align="center" class="td_desc nofont dtl_280_4"  style="font-size:0px; color:#fff;" >121</td>
+        <td id="carbo_310_280" class="td_desc odd nofont dtl_280_5" align="center"  style="font-size:0px; color:#fff;" >10</td>
+        <td id="protein_310_280" align="center" class="td_desc nofont dtl_280_6" style="font-size:0px; color:#fff;" >2.38</td>
+        <td id="difi_310_280" class="td_desc odd nofont dtl_280_7" align="center"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="chol_310_280" align="center" class="td_desc nofont dtl_280_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_310_280" class="td_desc odd nofont dtl_280_9" align="center"  style="font-size:0px; color:#fff;" >0.13</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_296" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_296" >+</span>&nbsp;<span id="dtl_296" class="click_popup" data-title="Guacamole" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/guacamole-1.png" alt="" width="48"  />&nbsp;Guacamole&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_296" class="odd nofont dtl_296_1" align="center"  style="font-size:0px; color:#fff;" >89.4</td>
+		<td id="totalfat_311_296" align="center" class="td_desc nofont dtl_296_2"  style="font-size:0px; color:#fff;" >7.9</td>
+		<td id="satfat_311_296" class="td_desc odd nofont dtl_296_3" align="center"  style="font-size:0px; color:#fff;" >1.1</td>
+        <td id="sodium_311_296" align="center" class="td_desc nofont dtl_296_4"  style="font-size:0px; color:#fff;" >199.3</td>
+        <td id="carbo_311_296" class="td_desc odd nofont dtl_296_5" align="center"  style="font-size:0px; color:#fff;" >5.4</td>
+        <td id="protein_311_296" align="center" class="td_desc nofont dtl_296_6" style="font-size:0px; color:#fff;" >1.2</td>
+        <td id="difi_311_296" class="td_desc odd nofont dtl_296_7" align="center"  style="font-size:0px; color:#fff;" >3.8</td>
+        <td id="chol_311_296" align="center" class="td_desc nofont dtl_296_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_311_296" class="td_desc odd nofont dtl_296_9" align="center"  style="font-size:0px; color:#fff;" >0.8</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_295" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_295" >+</span>&nbsp;<span id="dtl_295" class="click_popup" data-title="Cheese" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/cheese-2.png" alt="Cheese" width="48"  />&nbsp;Cheese&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_295" class="odd nofont dtl_295_1" align="center"  style="font-size:0px; color:#fff;" >67</td>
+		<td id="totalfat_311_295" align="center" class="td_desc nofont dtl_295_2"  style="font-size:0px; color:#fff;" >5.2</td>
+		<td id="satfat_311_295" class="td_desc odd nofont dtl_295_3" align="center"  style="font-size:0px; color:#fff;" >3.3</td>
+        <td id="sodium_311_295" align="center" class="td_desc nofont dtl_295_4"  style="font-size:0px; color:#fff;" >148.1</td>
+        <td id="carbo_311_295" class="td_desc odd nofont dtl_295_5" align="center"  style="font-size:0px; color:#fff;" >0.6</td>
+        <td id="protein_311_295" align="center" class="td_desc nofont dtl_295_6" style="font-size:0px; color:#fff;" >4.4</td>
+        <td id="difi_311_295" class="td_desc odd nofont dtl_295_7" align="center"  style="font-size:0px; color:#fff;" >0</td>
+        <td id="chol_311_295" align="center" class="td_desc nofont dtl_295_8" style="font-size:0px; color:#fff;" >16.6</td>
+        <td id="sugars_311_295" class="td_desc odd nofont dtl_295_9" align="center"  style="font-size:0px; color:#fff;" >0.5</td>
+    </tr>
+	    	<!--<tr class="selected-row">-->
+       <!-- <td><span class="close-ic">X</span>Flour Tortilla</td>-->
+	<tr class="rectr rec_311 rec_td_311_280" >
+		<td class="td_img" ><span class="add-ic addcalc" id="main_td_311_280" >+</span>&nbsp;<span id="dtl_280" class="click_popup" data-title="Hummus" ><img src="http://stuffed.com.sg/wp-content/uploads/2016/05/hummus-1.png" alt="" width="48"  />&nbsp;Hummus&nbsp;<span class="dtl-ic">i</span></span></td>
+		<td id="energy_311_280" class="odd nofont dtl_280_1" align="center"  style="font-size:0px; color:#fff;" >88.5</td>
+		<td id="totalfat_311_280" align="center" class="td_desc nofont dtl_280_2"  style="font-size:0px; color:#fff;" >4.25</td>
+		<td id="satfat_311_280" class="td_desc odd nofont dtl_280_3" align="center"  style="font-size:0px; color:#fff;" >0.63</td>
+        <td id="sodium_311_280" align="center" class="td_desc nofont dtl_280_4"  style="font-size:0px; color:#fff;" >121</td>
+        <td id="carbo_311_280" class="td_desc odd nofont dtl_280_5" align="center"  style="font-size:0px; color:#fff;" >10</td>
+        <td id="protein_311_280" align="center" class="td_desc nofont dtl_280_6" style="font-size:0px; color:#fff;" >2.38</td>
+        <td id="difi_311_280" class="td_desc odd nofont dtl_280_7" align="center"  style="font-size:0px; color:#fff;" >2</td>
+        <td id="chol_311_280" align="center" class="td_desc nofont dtl_280_8" style="font-size:0px; color:#fff;" >0</td>
+        <td id="sugars_311_280" class="td_desc odd nofont dtl_280_9" align="center"  style="font-size:0px; color:#fff;" >0.13</td>
+    </tr>
+	
+		<!--<tr class="ext_tr"><td  style="height:96px; border-bottom:none;"  colspan="10" >&nbsp;</td></tr>
+        <tr class="ext_tr"  ><td  style="height:96px; border-bottom:none;"  colspan="10" >&nbsp;</td></tr>-->
+    </tbody>
+
+    <tfoot>
+        <tr class="total-row">
+            <td class="td_img total_row_tr" >Totals</td>
+            <td id="z1" align="center"  style="font-size:0px; color:#fff;">0</td>
+            <td class="odd" id="z2" align="center"  style="font-size:0px; color:#fff;">0</td>
+            <td id="z3" align="center"  style="font-size:0px; color:#fff;">0</td>
+            <td class="odd" id="z4" align="center"  style="font-size:0px; color:#fff;">0</td>
+            <td id="z5" align="center"  style="font-size:0px; color:#fff;">0</td>
+            <td class="odd" id="z6" align="center"  style="font-size:0px; color:#fff;">0</td>
+            <td id="z7" align="center"  style="font-size:0px; color:#fff;">0</td>
+            <td class="odd" id="z8" align="center"  style="font-size:0px; color:#fff;">0</td>
+            <td id="z9" align="center"  style="font-size:0px; color:#fff;">0</td>
+        </tr>
+        <tr class="new_footer_row" >
+        	<td class="thead_first_td" >&nbsp;</td>
+				
+                                                <td class="foot_clsno" ><span class="transform sp_1">Energy [kcal]</span> </td>
+            	
+                                                <td class="foot_cls" ><span class="transform sp_2">Total Fat [g]</span> </td>
+            	
+                                                <td class="foot_clsno" ><span class="transform sp_3">Saturated Fat [g]</span> </td>
+            	
+                                                <td class="foot_cls" ><span class="transform sp_4">Sodium [mg]</span> </td>
+            	
+                                                <td class="foot_clsno" ><span class="transform sp_5">Carbohydrates [g]</span> </td>
+            	
+                                                <td class="foot_cls" ><span class="transform sp_6">Protein [g]</span> </td>
+            	
+                                                <td class="foot_clsno" ><span class="transform sp_7">Dietary Fibres [g]</span> </td>
+            	
+                                                <td class="foot_cls" ><span class="transform sp_8">Cholesterol [mg]</span> </td>
+            	
+                                                <td class="foot_clsno" ><span class="transform sp_9">Sugars [g]</span> </td>
+                    </tr>
+    </tfoot>
+
+</table>
+
+        </div>
+    </div>
+    
+    <div class="row popup_custom" id="ex1" >
+    	<div class="col-md-12"><div class="col-md-12 text-right popup_close" style="width:115%;  padding-right: 0; top: -10px;" ><a href="javascript:;" rel="modal:close">X</a></div></div>
+        <div class="col-md-12 text-center"><h2>Totals</h2></div>
+        <table width="100%" cellpadding="0" cellspacing="0" >
+        
+				
+                        <tr class="" id="tt_1" >
+                        <td>Energy [kcal]</td>
+                        <td id="ct_1" >0</td>
+                        </tr>
+            	
+                        <tr class="" id="tt_2" >
+                        <td>Total Fat [g]</td>
+                        <td id="ct_2" >0</td>
+                        </tr>
+            	
+                        <tr class="" id="tt_3" >
+                        <td>Saturated Fat [g]</td>
+                        <td id="ct_3" >0</td>
+                        </tr>
+            	
+                        <tr class="" id="tt_4" >
+                        <td>Sodium [mg]</td>
+                        <td id="ct_4" >0</td>
+                        </tr>
+            	
+                        <tr class="" id="tt_5" >
+                        <td>Carbohydrates [g]</td>
+                        <td id="ct_5" >0</td>
+                        </tr>
+            	
+                        <tr class="" id="tt_6" >
+                        <td>Protein [g]</td>
+                        <td id="ct_6" >0</td>
+                        </tr>
+            	
+                        <tr class="" id="tt_7" >
+                        <td>Dietary Fibres [g]</td>
+                        <td id="ct_7" >0</td>
+                        </tr>
+            	
+                        <tr class="" id="tt_8" >
+                        <td>Cholesterol [mg]</td>
+                        <td id="ct_8" >0</td>
+                        </tr>
+            	
+                        <tr class="" id="tt_9" >
+                        <td>Sugars [g]</td>
+                        <td id="ct_9" >0</td>
+                        </tr>
+                    
+        </table>
+    </div>
+
+    <div class="row popup_custom" id="ex2" >
+    	<div class="col-md-12"><div class="col-md-12 text-right popup_close" style="width:115%;  padding-right: 0; top: -10px;" ><a href="javascript:;" rel="modal:close">X</a></div></div>
+        	  <div class="col-md-12" id="table_dtl" ></div>      
+        </div>
+    </div>
+
+    </div>
+</section>
+<a href="#ex1" rel="modal:open" style="display:none;" id="open_popup" >Open Modal</a>
+<a href="#ex2" rel="modal:open" style="display:none;" id="open_popup2" >Open Modal</a>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+		<footer>ALL RIGHTS RESERVED @ STUFF'D 2016</footer>
+<script src="http://stuffed.com.sg/wp-content/themes/stuff/js/jquery.min.js"></script> 
+<script src="http://stuffed.com.sg/wp-content/themes/stuff/js/bootstrap.min.js"></script>
+<script src="http://stuffed.com.sg/wp-content/themes/stuff/js/calculation.js"></script>
+
+
+<script type="text/javascript">
+$( document ).ready(function() { 
+
+$('.first_choice').hide();
+$('.second_choice').show();
+
+$("#menu-692").change(function() {
+	if($(this).val() == 'Career'){
+		$('.first_choice').show();
+		$('.second_choice').hide();
+	}else if($(this).val() == 'Compliment' || $(this).val() == 'Complain'){
+		$('.second_choice').show();
+		$('.first_choice').hide();
+	}else{
+		$('.first_choice').hide();
+		$('.second_choice').hide();
+	}
+});
+ 
+$("#foodsub2").css("display","none");
+$("#foodsub3").css("display","none");
+$("#foodsub4").css("display","none");
+    $(".tab1").click(function() {
+        $("#tax1").addClass("selected");  
+        $("#tax2").removeClass("selected");
+		$("#tax3").removeClass("selected");
+		$("#tax4").removeClass("selected");
+		$("#tax5").removeClass("selected");
+		$("#foodsub1").css("display","block");
+		$("#foodsub2").css("display","none");
+		$("#foodsub3").css("display","none");
+		$("#foodsub4").css("display","none");
+		$("#foodsub5").css("display","none");
+		$('html, body').animate({
+        scrollTop: $("#whatgoes").offset().top - 120
+    }, 1000);
+    });
+	
+
+    $(".tab2").click(function() {  
+        $("#tax1").removeClass("selected");  
+        $("#tax2").addClass("selected");
+		$("#tax3").removeClass("selected");
+		$("#tax4").removeClass("selected");
+		$("#tax5").removeClass("selected");
+		$("#foodsub1").css("display","none");
+		$("#foodsub2").css("display","block");
+		$("#foodsub3").css("display","none");
+		$("#foodsub4").css("display","none");
+		$("#foodsub5").css("display","none");
+		$('html, body').animate({
+        scrollTop: $("#whatgoes").offset().top - 120
+    }, 1000);
+    }); 
+	
+	$(".tab3").click(function() {  
+        $("#tax1").removeClass("selected");  
+        $("#tax2").removeClass("selected");
+		$("#tax3").addClass("selected");
+		$("#tax4").removeClass("selected");
+		$("#tax5").removeClass("selected");
+		$("#foodsub1").css("display","none");
+		$("#foodsub2").css("display","none");
+		$("#foodsub3").css("display","block");
+		$("#foodsub4").css("display","none");
+		$("#foodsub5").css("display","none");
+		$('html, body').animate({
+        scrollTop: $("#whatgoes").offset().top - 120
+    }, 1000);
+    }); 
+	
+	$(".tab4").click(function() {  
+        $("#tax1").removeClass("selected");  
+        $("#tax2").removeClass("selected");
+		$("#tax3").removeClass("selected");
+		$("#tax4").addClass("selected");
+		$("#tax5").removeClass("selected");
+		$("#foodsub1").css("display","none");
+		$("#foodsub2").css("display","none");
+		$("#foodsub3").css("display","none");
+		$("#foodsub4").css("display","block");
+		$("#foodsub5").css("display","none");
+		$('html, body').animate({
+        scrollTop: $("#whatgoes").offset().top - 120
+    }, 1000);
+    }); 
+	
+	$(".tab5").click(function() {  
+        $("#tax1").removeClass("selected");  
+        $("#tax2").removeClass("selected");
+		$("#tax3").removeClass("selected");
+		$("#tax4").removeClass("selected");
+		$("#tax5").addClass("selected");
+		$("#foodsub1").css("display","none");
+		$("#foodsub2").css("display","none");
+		$("#foodsub3").css("display","none");
+		$("#foodsub4").css("display","none");
+		$("#foodsub5").css("display","block");
+		$('html, body').animate({
+        scrollTop: $("#whatgoes").offset().top - 120
+    }, 1000);
+    });   
+});
+</script>
+
+<script type="text/javascript">
+var topheight= 55;
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	var topheight= 110;
+}
+
+var sections = $('section')
+  , nav = $('nav #mainNavbar ul.nav.navbar-nav')
+  , nav_height = nav.outerHeight() + topheight;
+ 
+$(window).on('scroll', function () {
+  var cur_pos = $(this).scrollTop();
+ 
+  sections.each(function() {
+    var top = $(this).offset().top - nav_height - 1,
+        bottom = top + $(this).outerHeight() + 1;
+ 
+    if (cur_pos >= top && cur_pos <= bottom) {
+      nav.find('a').removeClass('active');
+      sections.removeClass('active');
+ 
+      $(this).addClass('active');
+      nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+    }
+  });
+});
+
+nav.find('a').on('click', function () {
+  var $el = $(this)
+    , id = $el.attr('href');
+ 
+  $('html, body').animate({
+    scrollTop: $(id).offset().top - nav_height
+  }, 500);
+ 
+  return false;
+});
+</script>
+
+<script>
+    var anchor = document.querySelectorAll('button');
+    [].forEach.call(anchor, function(anchor){
+      var open = false;
+      anchor.onclick = function(event){
+        event.preventDefault();
+        if(!open){
+          this.classList.add('close');
+          open = true;
+        }
+        else{
+          this.classList.remove('close');
+          open = false;
+        }
+      }
+    }); 
+	
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	$('#mainNavbar ul li a').on('click', function(){
+		$('.btn-navbar').click();
+		$('.navbar-toggle').click()
+	});
+}
+
+if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+	$(window).on('scroll', function () {
+		var cur_pos_n = $(this).scrollTop();
+		if($(window).scrollTop() + $(window).height() > $(document).height() - 30) {
+			//$('table.calc-tbl thead').css('top','320px');
+			$('table.calc-tbl tfoot').css('bottom','0px');
+		}else{
+			$('table.calc-tbl tfoot').css('bottom','0px');
+		}
+	});
+}
+
+</script>
+
+<script src="http://stuffed.com.sg/wp-content/themes/stuff/js/jquery-modal-master/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="http://stuffed.com.sg/wp-content/themes/stuff/js/jquery-modal-master/jquery.modal.css" type="text/css" media="screen" />
+<script language="javascript" type="application/javascript" >
+if($(window).width() < 767){
+	//var mw = $(window).width() - 200;
+	var mw2 = $('.thead_first_td').width();
+	$('table.calc-tbl tr td.total_row_tr').width(mw2);
+	$('table.calc-tbl tr td.td_img').width(mw2);
+	$('table.calc-tbl tr td.rectr').width(mw2);
+	//$('table.calc-tbl tr td.rectr').width(mw + 90);
+	
+	$('table.calc-tbl tr td.total_row_tr').css('width', mw2);
+	$('table.calc-tbl tr td.td_img').css('width', mw2);	
+	$('table.calc-tbl tr td.rectr').css('width', mw2);	
+	//$('table.calc-tbl tr td.rectr').css('width', mw + 90);
+	
+	$('table.calc-tbl tfoot tr.new_footer_row td.thead_first_td').css('width', mw2);
+	$('table.calc-tbl tfoot tr.new_footer_row td.thead_first_td').css('min-width', mw2);
+	/*$('table.calc-tbl tr td.foot_clsno').css('width', mw2);	
+	$('table.calc-tbl tr td.foot_cls').css('width', mw2);*/		
+}else{
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	}else{
+		var mw2 = $('.thead_first_td').width();
+		mw2 = mw2 + 10;
+		$('table.calc-tbl tr td.total_row_tr').width(mw2);
+		$('table.calc-tbl tr td.td_img').width(mw2);
+		$('table.calc-tbl tr td.rectr').width(mw2);
+		
+		$('table.calc-tbl tr td.total_row_tr').css('width', mw2);
+		$('table.calc-tbl tr td.td_img').css('width', mw2);	
+		$('table.calc-tbl tr td.rectr').css('width', mw2);	
+		
+		$('table.calc-tbl tfoot tr.new_footer_row td.thead_first_td').css('width', mw2);
+		$('table.calc-tbl tfoot tr.new_footer_row td.thead_first_td').css('min-width', mw2);
+		/*$('table.calc-tbl tr td.foot_clsno').css('width', mw2);	
+		$('table.calc-tbl tr td.foot_cls').css('width', mw2);*/	
+	}
+}
+
+$("tfoot").click(function() { 
+	var ac = $('#z1').html();
+	ac = ac.replace(' kcal <span class="addcalc close-ic total-plus">+</span>', ' '); 
+	ht = ac; 	
+	//$('#z1').html(ht);
+
+	$("#ct_"+1).html(ht);
+	$("#ct_"+2).html($("#z2").html());
+	$("#ct_"+3).html($("#z3").html());
+	$("#ct_"+4).html($("#z4").html());
+	$("#ct_"+5).html($("#z5").html());
+	$("#ct_"+6).html($("#z6").html());
+	$("#ct_"+7).html($("#z7").html());
+	$("#ct_"+8).html($("#z8").html());
+	$("#ct_"+9).html($("#z9").html());
+
+	$('#open_popup').click();
+
+});
+
+$(".popup_close").click(function() { 
+	$('.popup_custom').hide(); 
+});
+
+$( window ).resize(function() {
+	if($('.recepie_img a').hasClass('show_rec_dtl_active')){ 
+		$('table.calc-tbl tfoot').show();
+		$('table.calc-tbl tfoot .total-row').show();
+		$('table.calc-tbl tfoot .new_footer_row').show();
+	}
+
+	var mw2 = $('.thead_first_td').width();
+	if($(window).width() > 1280){ 
+		mw2 = mw2 + 10;
+	}else if($(window).width() >= 1200 && $(window).width() <= 1280){
+		mw2 = mw2 + 10;
+	}else{
+		mw2 = mw2 + 10;
+	}
+
+	$('table.calc-tbl tr td.total_row_tr').width(mw2);
+	$('table.calc-tbl tr td.td_img').width(mw2);
+	$('table.calc-tbl tr td.rectr').width(mw2);
+
+	$('table.calc-tbl tr td.total_row_tr').css('width', mw2);
+	$('table.calc-tbl tr td.td_img').css('width', mw2);	
+	$('table.calc-tbl tr td.rectr').css('width', mw2);
+	
+	$('table.calc-tbl tfoot tr.new_footer_row td.thead_first_td').css('width', mw2);
+	$('table.calc-tbl tfoot tr.new_footer_row td.thead_first_td').css('min-width', mw2);
+	/*$('table.calc-tbl tr td.foot_clsno').css('width', mw2);	
+	$('table.calc-tbl tr td.foot_cls').css('width', mw2);*/		
+	
+	if($(window).width() < 991){ 
+		var ac = parseFloat($('#z1').html());
+		//alert('1st ' + ac);
+		//ac = ac.replace(ac, ' CAL <span id="main_td_311_308" class="addcalc close-ic total-plus">+</span>'); 
+		/*alert('2nd ' + ac);*/
+		if(ac < 0  || ac == 0){ 
+			ac = ac.replace('0 kcal <span class="addcalc close-ic total-plus">+</span>', ' '); 
+			ac = ac.replace('kcal <span class="addcalc close-ic total-plus">+</span>', ' '); 
+			var ht = ac+'';
+			/*alert('ht1 ' + ht);*/
+		}else if(ac == '0 kcal <span class="addcalc close-ic total-plus">+</span>'){
+			ac = ac.replace('0 kcal <span class="addcalc close-ic total-plus">+</span>', ' '); 
+			var ht = ac;
+			/*alert('ht2 ' + ht);*/
+		}else if(ac == ' kcal <span class="addcalc close-ic total-plus">+</span>'){
+			ac = ac.replace(' kcal <span class="addcalc close-ic total-plus">+</span>', ' '); 
+			var ht = ac;
+			/*alert('ht3 ' + ht);*/
+		}else if(ac > 0){
+			ht = ac + ' kcal <span class="addcalc close-ic total-plus">+</span>'; 
+		}
+		/*alert('3rd ' + ac);
+		alert('4th ' + ht);*/
+		$('#z1').html(ht);
+	}else{
+		var ac = $('#z1').html();
+		if(ac == 0 || ac == 0.00){
+			$("#z1").css("font-size","0px");
+		}
+		ac = ac.replace(' kcal <span class="addcalc close-ic total-plus">+</span>', ' '); 
+		ht = ac;
+		$('#z1').html(ht);
+	}
+
+});
+
+$(".click_popup").click(function() { 
+	var fnt = $(this).data('title');
+	var at = $(this).attr('id'); 
+	var trt = '';
+	trt += '<div class="col-md-12 text-center"><h2>'+fnt+'</h2></div><table width="100%" cellpadding="0" cellspacing="0" id="table_dtl" >';
+
+	for(var i=1; i<=9; i++){
+		var nv = '.'+at+'_'+i;		
+		var nval = $(nv).html();
+		if(i==1){
+			trt += '<tr style="background: #dcdbdb none repeat scroll 0 0;" ><td>Energy [kcal]&nbsp;</td><td>'+nval+'</td></tr>';
+		}else if(i==2){
+			trt += '<tr><td>Total Fat [g]&nbsp;</td><td>'+nval+'</td></tr>';
+		}else if(i==3){
+			trt += '<tr style="background: #dcdbdb none repeat scroll 0 0;" ><td>Saturated Fat [g]&nbsp;</td><td>'+nval+'</td></tr>';
+		}else if(i==4){
+			trt += '<tr><td>Sodium [mg]&nbsp;</td><td>'+nval+'</td></tr>';
+		}else if(i==5){
+			trt += '<tr style="background: #dcdbdb none repeat scroll 0 0;" ><td>Carbohydrates [g]&nbsp;</td><td>'+nval+'</td></tr>';
+		}else if(i==6){
+			trt += '<tr><td>Protein [g]&nbsp;</td><td>'+nval+'</td></tr>';
+		}else if(i==7){
+			trt += '<tr style="background: #dcdbdb none repeat scroll 0 0;" ><td>Dietary Fibres [g]&nbsp;</td><td>'+nval+'</td></tr>';
+		}else if(i==8){
+			trt += '<tr><td>Cholesterol [mg]&nbsp;</td><td>'+nval+'</td></tr>';
+		}else if(i==9){
+			trt += '<tr style="background: #dcdbdb none repeat scroll 0 0;" ><td>Sugars [g]&nbsp;</td><td>'+nval+'</td></tr>';
+		}
+	}
+
+	trt += '</table>';
+	$('#table_dtl').html(trt);
+	$('#open_popup2').click();
+
+});
+
+</script>
+
+
+<script type="text/javascript">
+
+	  var mmarker = '';
+      var addresses = [
+            				['Bugis Junction', 'B1-K07 200 Victoria St Singapore 188021', '', '1.299613', '103.855603','B1-K07<br />200 Victoria St<br />Singapore 188021'],
+											['City Square Mall', 'B1-K1 180 Kitchener Rd Singapore 208539', '', '1.311495', '103.856671','B1-K1<br />180 Kitchener Rd<br />Singapore 208539'],
+											['Tampines Mall', 'B1-K135 Tampines Central Singapore', '', '1.353060', '103.942687','B1-K13<br />5 Tampines Central<br />Singapore 529510'],
+											['Bedok Mall', 'B2-22 311 New Upper Changi Road Singapore 467360', '', '1.324364', '103.929184','B2-22<br />311 New Upper Changi Road<br />Singapore 467360'],
+											['Causeway Point', 'B1-K17 1 Woodlands Square Singapore 738099', '', '1.435840', '103.786254','B1-K17<br />1 Woodlands Square<br />Singapore 738099'],
+											['Paya Lebar Square', '01-61 60 Paya Lebar Rd Singapore 409051', '', '1.318895', '103.892572','01-61<br />60 Paya Lebar Rd<br />Singapore 409051'],
+											['Punggol Waterway', 'B2-K1 83 Punggol Central Singapore', '', '1.406186', '103.901931','B2-K1<br />83 Punggol Central<br />Punggol Waterway Point<br />Singapore 828761'],
+											['SunPlaza', 'B1-31 30 Sembawang Drive Singapore 757713', '', '1.448217', '103.819504','B1-31<br />30 Sembawang Drive<br />Singapore 757713'],
+											['YewTee Point', 'B1-50 21 Choa Chu Kang North 6 Singapore 689578', '', '1.397100', '103.746752','B1-50 21<br />Choa Chu Kang North 6<br />Singapore 689578'],
+											['The Clementi Mall', 'B1-K10 3155 Commonwealth Ave West Singapore 129488', '', '1.314964', '103.764226','B1-K10<br />3155 Commonwealth Ave West<br />Singapore 129488'],
+											['Compass One', 'B1-02/03 1 Sengkang Square Singapore 545078', '', '1.392053', '103.895190','B1-02/03<br />1 Sengkang Square<br />Singapore 545078'],
+											['Hougang Mall', '01-38 90 Hougang Ave 10 Singapore 538766', '', '1.372812', '103.893748','01-38<br />90 Hougang Ave 10<br />Singapore 538766'],
+											['Vivocity', 'B2-K18 1 Harbourfront Walk Singapore 098585', '', '1.264520', '103.822284','B2-K18<br />1 Harbourfront Walk<br />Singapore 098585'],
+											['NEX Mall', 'B2-47A 23 Serangoon Central Singapore 556083', '', '1.350794', '103.872385','B2-47A<br />23 Serangoon Central<br />Singapore 556083'],
+											['Changi City Point', 'B1-20 5 Changi Business Park Central 1 Singapore 486038', '', '1.334386', '103.962957','B1-20<br />5 Changi Business Park Central 1<br />Singapore 486038'],
+											['Hillion Mall', 'B2-40 17 Petir Road Singapore 678278', '', '1.378809', '103.763977','B2-40<br />17 Petir Road<br />Singapore 678278'],
+											['White Sands', 'B1-K02 1 Pasir Central Street 3 Singapore 518457', '', '1.373307', '103.949526','B1-K02<br />1 Pasir Central Street 3<br />Singapore 518457'],
+											['Northpoint', 'B1-43 930 Yishun Avenue 2 Singapore 769098', '', '1.429888', '103.836108','B1-43<br />930 Yishun Avenue 2<br />Singapore 769098'],
+											['Lot One', 'B1-K26 21 Choa Chu Kang Avenue 4 Singapore 689812', '', '1.385460', '103.744857','B1-K26<br />21 Choa Chu Kang Avenue 4<br />Singapore 689812'],
+											['Jurong Point', '01-43/44 63 Jurong West Central 3 Singapore 648331', '', '1.339808', '103.706569','01-43/44<br />63 Jurong West Central 3<br />Singapore 648331'],
+											['Jem', 'B1-K06 50 Jurong Gateway Road Singapore 608549', '', '1.333626', '103.743342','B1-K06<br />50 Jurong Gateway Road<br />Singapore 608549'],
+											['The Seletar Mall', 'B2-22/23 33 Sengkang West Avenue Singapore 797653', '', '1.391659', '103.876349','B2-22/23<br />33 Sengkang West Avenue<br />Singapore 797653'],
+											['Tiong Bahru Plaza', 'B1-K8 302 Tiong Bahru Road Singapore 168732', '', '1.286322', '103.827442','B1-K8<br />302 Tiong Bahru Road<br />Singapore 168732'],
+											['Junction 8', 'B1-19A 9 Bishan Place Singapore 579837', '', '1.350906', '103.848857','B1-19A<br />9 Bishan Place<br />Singapore 579837'],
+											['Clifford Centre', 'B-01/10 Kiosk 6 24 Raffles Place Singapore 048621', '', '1.284232', '103.852410','B-01/10 Kiosk 6<br />24 Raffles Place<br />Singapore 048621'],
+											['Terminal 2', '016-010, Kiosk K4 60 Airport Blvd, Terminal 2 Singapore 819643', '', '1.355632', '103.989118','016-010, Kiosk K4<br />60 Airport Blvd, Terminal 2<br />Singapore 819643'],
+											['Alexandra Retail Centre', '01-11 460 Alexandra Road Singapore 119963', '', '1.274217', '103.801880','01-11<br />460 Alexandra Road<br />Singapore 119963'],
+											['Chinatown Point', 'B1-52D 133 North Bridge Road Singapore 059413', '', '1.285668', '103.845088','B1-52D<br />133 North Bridge Road<br />Singapore 059413']
+							      ];
+	  
+    //<![CDATA[
+    var Lat1 = '1.299613';
+	var Lon1 = '103.855603';
+
+    // delay between geocode requests - at the time of writing, 100 miliseconds seems to work well
+    var delay = 100;
+
+	var draggable2= true;
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		var draggable2= false;
+	}
+
+      // ====== Create map objects ======
+      var infowindow = new google.maps.InfoWindow();
+      var latlng = new google.maps.LatLng(Lat1, Lon1);
+      var mapOptions = {
+        zoom: 13,
+        center: latlng,
+
+		scrollwheel: false,
+		navigationControl: false,
+		mapTypeControl: false,
+		scaleControl: false,
+		draggable: draggable2,
+		scrollwheel: false,
+
+		zoomControl: true,
+		zoomControlOptions: {
+			position: google.maps.ControlPosition.TOP_RIGHT
+		}
+
+        //mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+      var geo = new google.maps.Geocoder(); 
+      var map = new google.maps.Map(document.getElementById("mapcanvas2"), mapOptions);
+      var bounds = new google.maps.LatLngBounds();
+
+      // ====== Geocoding ======
+      function getAddress(search, next, mmarker) {
+		  
+		  var res = search.split(","); 
+		  //search = res[0]+', '+res[1];
+		  //search = res[0]+', '+res[1];
+		  search = res[1];
+		  
+        geo.geocode({address:search}, function (results,status)
+          { 
+            // If that was successful
+            if (status == google.maps.GeocoderStatus.OK) {
+              // Lets assume that the first marker is the one we want
+              var p = results[0].geometry.location;
+              var lat=p.lat();
+              var lng=p.lng();
+			  
+			  var lat=res[3];
+              var lng=res[4];
+			  //var mmarker=res[5];
+			  var mmarker = '';//res[5];
+			  mmarker = '<b>'+res[0]+'</b><br /> '+res[5];
+			  
+              // Output the data
+                var msg = 'address 1 ="' + search + '" lat=' +lat+ ' lng=' +lng+ ' mmarker='+mmarker+' (delay='+delay+'ms)<br>';
+                document.getElementById("messages").innerHTML += msg;
+              // Create a marker
+              createMarker(search,lat,lng,mmarker);
+            }
+            // ====== Decode the error status ======
+            else {
+              // === if we were sending the requests to fast, try this one again and increase the delay
+              if (status == google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
+                nextAddress--;
+                delay++;
+              } else {
+                var reason="Code "+status;
+                var msg = 'address 0 ="' + search + '" error=' +reason+ '(delay='+delay+'ms)<br>';
+                document.getElementById("messages").innerHTML += msg;
+              }   
+            }
+            next();
+          }
+        );
+      }
+
+     // ======= Function to create a marker
+     function createMarker(add,lat,lng,mmarker) {
+       //var contentString = add;
+	   var contentString = mmarker;
+       var marker = new google.maps.Marker({
+		   icon: 'http://stuffed.com.sg/wp-content/themes/stuff/images/pin.png',
+         position: new google.maps.LatLng(lat,lng),
+         map: map,
+         zIndex: Math.round(latlng.lat()*-100000)<<5
+       });
+
+      google.maps.event.addListener(marker, 'click', function() {
+         infowindow.setContent(contentString); 
+         infowindow.open(map,marker);
+       });
+
+       bounds.extend(marker.position);
+
+     }
+
+      // ======= An array of locations that we want to Geocode ========
+	  
+
+      // ======= Global variable to remind us what to do next
+      var nextAddress = 0;
+
+      // ======= Function to call the next Geocode operation when the reply comes back
+
+      function theNext() {
+        if (nextAddress < addresses.length) {
+          setTimeout('getAddress("'+addresses[nextAddress]+'",theNext)', delay, mmarker);
+          nextAddress++;
+        } else {
+          // We're done. Show map bounds
+          map.fitBounds(bounds);
+        }
+      }
+
+      // ======= Call that function for the first time =======
+      theNext();
+
+    // This Javascript is based on code provided by the
+    // Community Church Javascript Team
+    // http://www.bisphamchurch.org.uk/   
+    // http://econym.org.uk/gmap/
+
+    //]]>
+	
+	
+	
+function newLocation(newLat,newLng,ttl,adr)
+{
+	//alert(newLat+' => '+newLng);
+	/*map.setCenter({
+		lat : newLat,
+		lng : newLng
+	});*/
+
+	var draggable2= true;
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		var draggable2= false;
+	}
+
+	map = new google.maps.Map(
+    document.getElementById("mapcanvas2"), {
+      center: new google.maps.LatLng(newLat, newLng),
+      zoom: 20,
+	  
+	  	scrollwheel: false,
+		navigationControl: false,
+		mapTypeControl: false,
+		scaleControl: false,
+		draggable: draggable2,
+		scrollwheel: false,
+		
+		//mapTypeControl: true,
+//		mapTypeControlOptions: {
+//			style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+//			position: google.maps.ControlPosition.TOP_CENTER
+//		},
+		zoomControl: true,
+		zoomControlOptions: {
+			position: google.maps.ControlPosition.TOP_RIGHT
+		},
+		//scaleControl: true,
+//		streetViewControl: true,
+//		streetViewControlOptions: {
+//			position: google.maps.ControlPosition.LEFT_TOP
+//		},
+//		fullscreenControl: true,
+	  
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+	
+	var Coba1center = new google.maps.LatLng(newLat, newLng);
+	var marker = new google.maps.Marker({
+    icon: 'http://stuffed.com.sg/wp-content/themes/stuff/images/pin.png',
+    map: map,
+    position: Coba1center,
+    title: ttl,
+    animation: google.maps.Animation.DROP,
+    address: adr,
+    url: ''
+  })
+  bounds.extend(marker.getPosition());
+  map.fitBounds(bounds);
+  
+  setTimeout(function(){
+		  google.maps.event.addListener(marker, 'click', function() {
+			map.setZoom(15);
+			map.setCenter(marker.getPosition());	
+			var html = "<div><h3>" + ttl + "</h3><p>" + adr + "<br></div></p></div>";
+			iw = new google.maps.InfoWindow({
+			  content: html,
+			  maxWidth: 350
+			});
+			//iw.open(map, marker);
+		  });
+		  
+		  
+		  google.maps.event.trigger(marker, 'click');
+		  
+	}, 100);
+
+	/*geocoder = new google.maps.Geocoder();
+
+	var locations = [
+		[ttl, adr, '']
+	];
+	geocodeAddress(locations, 0);*/
+
+}
+	
+$(document).ready(function ()
+{
+	$(".click_map").on('click', function ()
+    {
+		var cid = $(this).attr('id');		
+		var lat = $('#lat_'+cid).val();
+		var long = $('#long_'+cid).val();
+		var ttl = $('#ttl_'+cid).val();
+		var adr = $('#adr_'+cid).val();
+		//alert(lat+' => '+long);
+		newLocation(lat,long,ttl,adr);
+	});
+
+});
+
+google.maps.Map.prototype.clearMarkers=function(){if(iw){iw.close();}}
+	
+    </script>
+
+
+
+<script type='text/javascript' src='http://stuffed.com.sg/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/stuffed.com.sg\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://stuffed.com.sg/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4.1'></script>
+<script type='text/javascript' src='http://stuffed.com.sg/wp-content/themes/stuff/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://stuffed.com.sg/wp-content/themes/stuff/js/functions.js?ver=20150330'></script>
+<script type='text/javascript' src='http://stuffed.com.sg/wp-includes/js/wp-embed.min.js?ver=4.5.16'></script>
+
+<!--     ===== START Dreamgrow Scroll Triggered Box 2.3 =====   -->
+
+<div class="dgd_overlay"></div>
+
+<!--     ===== END OF Dreamgrow Scroll Triggered Box 2.3 =====   -->
+
+
+</body>
+</html>
