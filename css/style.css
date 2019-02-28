@@ -146,8 +146,8 @@ footer { font-family: 'Anton', sans-serif; font-size:24px; padding:30px 0; backg
 .nutrtnCalc h2 { font-family: 'Anton', sans-serif; font-size:30px; text-align:center; margin-bottom:20px; margin-top:5%; }
 .calc-tbl {}
 .calc-tbl td { padding:5px; font-size:18px; border-bottom:1px solid #000; position:relative; white-space:nowrap; }
-.calc-tbl td.odd { background-color:#b4b4b4; }
-.tbl-ttl { background:#000; color:#fff; }
+.calc-tbl td.odd { background-color:#ffdbdb; }
+.tbl-ttl { background:#fd5d5d ; color:#fff; }
 .add-ic { display:inline-block; padding:0 5px; vertical-align:middle; font-size:43px; color:#ec594d; cursor:pointer;}
 .close-ic { width:35px; height:35px; line-height:35px; text-align:center; font-size:25px; display:inline-block; margin-right:10px; background:#ec594d; color:#fff; border-radius:50%; cursor:pointer; margin-top:12px; margin-bottom:14px; }
 span.transform {
@@ -166,8 +166,8 @@ span.transform {
 .total-row td { font-size:30px; color:#fff; }
 .ntr-tblmn { width:100%; overflow:auto; padding-top:150px; }
 .calc-tbl thead{ height:180px; }
-table.calc-tbl tfoot tr.total-row .total_row_tr{ min-width:233px; background:#000; }
-#z1, #z3, #z5, #z7, #z9{ background:#000; }
+table.calc-tbl tfoot tr.total-row .total_row_tr{ min-width:233px; background:#fd5d5d ; }
+#z1, #z3, #z5, #z7, #z9{ background:#fd5d5d ; }
 table.calc-tbl thead { display:none; background:#fff; z-index:100; width:100%; }
 table.calc-tbl tr.rectr{ display:none; }
 
